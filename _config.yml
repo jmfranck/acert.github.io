@@ -1,0 +1,12 @@
+# Site settings
+title: Website for Acert 2015 Workshop
+email: acert@cornell.edu
+description: > # this means to ignore newlines until "baseurl:"
+    This is a site for storing instructions and links to software for the Acert 2015 workshop.
+baseurl: "" # the subpath of your site, e.g. /blog/
+#url: "http://jmfranck.gitub.io/acert_workshop_2015" # the base hostname & protocol for your site
+#twitter_username: jekyllrb
+github_username:  jmfranck
+# Build settings
+#markdown: kramdown
+markdown: redcarpet
