@@ -8,3 +8,5 @@ recipe-attribution: J. Franck
 
 1. Downlaoad
 1. something else
+
+`this is code-like` *this is bold or italics*
