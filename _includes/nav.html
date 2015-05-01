@@ -6,4 +6,8 @@
         </li>
         {% endfor %}
     </ul>
+    pages:
+    {% for p in site.pages %}
+    {{p.url}}
+    {% endfor %}
 </nav>
