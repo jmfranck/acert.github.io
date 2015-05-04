@@ -181,7 +181,7 @@ pre {
 }
 .wrapper {
     width: #{$right-width - 2*$spacing-unit};
-    float: right;
+    float: left;
     margin-right: auto;
     margin-left: auto;
     padding-right: $spacing-unit;

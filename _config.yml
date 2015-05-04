@@ -1,5 +1,5 @@
 # Site settings
-title: ACERT 2015 Workshop.. Technical Information
+title: ACERT 2015 Workshop
 email: acert@cornell.edu
 description: > # this means to ignore newlines until "baseurl:"
     This is a site for storing instructions and links to software for the Acert 2015 workshop.

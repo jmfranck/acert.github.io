@@ -10,13 +10,13 @@
     box-shadow: 10px 10px 5px rgba(0,0,0,0.33);
     min-height: 56px;
     max-height: 110px;
-}
-.site-header {
     border-top: 5px solid $grey-color-dark;
     border-bottom: 3px solid $grey-color-dark;
-    min-height: 56px;
-    max-height: 105px;
+}
+.site-header {
     // Positioning context for the mobile navigation icon
+    min-height: 56px;
+    max-height: 110px;
 }
 
 .site-title {
@@ -175,6 +175,12 @@
 .page-content {
     margin: 100px auto 0;
     padding: $spacing-unit 0;
+    width: 100%;
+    max-width: #{$content-width};
+}
+.top-content {
+    margin: 0 auto 0;
+    padding: 0 0;
     width: 100%;
     max-width: #{$content-width};
 }
