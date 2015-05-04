@@ -1,6 +1,6 @@
 ---
 layout: default
-title: EasySpin Installation
+title: VirtualBox Installation
 recipe-attribution: J. Franck
 # recipe-attribution-link: http://www.opensourcefood.com/people/HungryJenny/recipes/soft-christmas-gingerbread-cookies
 ---

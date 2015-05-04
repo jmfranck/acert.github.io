@@ -4,8 +4,9 @@ title: EasySpin
 attribution: S. Stoll
 # recipe-attribution-link: http://www.opensourcefood.com/people/HungryJenny/recipes/soft-christmas-gingerbread-cookies
 ---
-## VirtualBox Installation
+## {{ page.title }} Installation
 
+Tried to install on Linux VirtualBox.
 This does not work.  I followed instructions on [http://easyspin.org/installation.html](the EasySpin homepage),
 
 ~~~~
