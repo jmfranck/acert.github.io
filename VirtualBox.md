@@ -22,6 +22,11 @@ recipe-attribution: J. Franck
         1. Type `cmd` into start menu/screen: right click → run as administrator
         1. Type **program executable** followed by full path to (e.g. `C:\Program Files\Oracle\VirtualBox\VirtualBox.exe` `C:\Users\jmf356\Downloads\Oracle_VM_VirtualBox_Extension_Pack-4.3.26-98988.vbox-extpack`)
 1. Download the Virtual Machine [(VM) image from here]().
-1. 
-
-`this is code-like` *this is bold or italics*
+1. Double-click on the VM image in order to import it.
+    1. Leave all default settings.
+1. Run the Virtual Machine by clicking "Start"
+    1. Select "Don't show this message again" and click OK.
+    1. Select `<Right Cntrl>-f` to switch to "full screen mode".
+1. When done, if the mouse will not leave the window, press the right `Cntrl` key to release the mouse.
+### Additional software installed
+1. gvim
