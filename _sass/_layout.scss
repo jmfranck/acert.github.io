@@ -23,9 +23,7 @@
     font-size: 26px;
     line-height: 56px;
     letter-spacing: -1px;
-    margin-bottom: 0;
-    float: left;
-
+    margin: 0 auto 0;
     &,
     &:visited {
         color: $grey-color-dark;
@@ -33,7 +31,7 @@
 }
 
 .site-nav {
-    float: left;
+    margin: 0 auto 0;
     line-height: 56px;
 
     .menu-icon {
@@ -175,8 +173,8 @@
 .page-content {
     margin: 100px auto 0;
     padding: $spacing-unit 0;
-    width: -webkit-calc(#{$content-width}  + #{$leftimage-width});
-    width:         calc(#{$content-width}  + #{$leftimage-width});
+    width: 100%;
+    max-width: #{$content-width};
 }
 
 .page-heading {
