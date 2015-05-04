@@ -193,8 +193,9 @@ pre {
     border: 0;
 }
 .wrapper {
-    //width: #{$right-width - 2*$spacing-unit};
-    width: #{$right-width - $spacing-unit};
+    width: #{$right-width - 2*$spacing-unit};
+    //width: #{$right-width - $spacing-unit};
+    //width: 30%;
     margin-right: auto;
     margin-left: #{-1*$overlap-width};
     margin-top: 0;
