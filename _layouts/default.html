@@ -8,13 +8,14 @@
     {% include header.html %}
 
     <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
+        <div class="left-wrapper">
+            <img src="{{ site.baseurl }}/taugh-f.jpg"/>
+        </div>
+        <div class="wrapper">
+            {{ content }}
+            {% include footer.html %}
+        </div>
     </div>
-
-    {% include footer.html %}
-
   </body>
 
 </html>

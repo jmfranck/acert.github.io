@@ -7,13 +7,13 @@
     top: 0;
     width: 100%;
     border: 0;
-    box-shadow: 10px 10px 5px #888888;
+    box-shadow: 10px 10px 5px rgba(0,0,0,0.33);
     min-height: 56px;
     max-height: 110px;
 }
 .site-header {
     border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
+    border-bottom: 3px solid $grey-color-dark;
     min-height: 56px;
     max-height: 105px;
     // Positioning context for the mobile navigation icon
@@ -104,6 +104,7 @@
 .site-footer {
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
+    z-index: -5;
 }
 
 .footer-heading {
@@ -174,6 +175,8 @@
 .page-content {
     margin: 100px auto 0;
     padding: $spacing-unit 0;
+    width: -webkit-calc(#{$content-width}  + #{$leftimage-width});
+    width:         calc(#{$content-width}  + #{$leftimage-width});
 }
 
 .page-heading {
