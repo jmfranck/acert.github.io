@@ -1,6 +1,6 @@
 ---
 layout: default
-title: VirtualBox Installation
+title: EasySpin Installation
 recipe-attribution: J. Franck
 # recipe-attribution-link: http://www.opensourcefood.com/people/HungryJenny/recipes/soft-christmas-gingerbread-cookies
 ---
@@ -8,6 +8,7 @@ recipe-attribution: J. Franck
 ### Requirements
 * **Any** 64bit operating system (unfortunately, 32bit OS not supported).
 * Administrative/root access on your laptop.
+
 ### Installation Instructions
 
 1. Download [Oracle VirtualBox](https://www.virtualbox.org/wiki/Downloads) and the extension (same page).
