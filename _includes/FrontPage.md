@@ -4,7 +4,7 @@ There will be two ways to participate in the workshops:
     On the links above, you should find instructions for installing the various software packages on your personal laptop, so that you can use the various software packages both during and after the conference.
 * **VirtualMachine**:
     Unfortunately, the Operating Systems supported by the various software packages are mutually exclusive.
-    Therefore, we will be supplying [VirtualMachines]{{site.url}}[VirtualBox] (VM) which can run on any 64-bit operating system and will have the various software packages pre-installed.
+    Therefore, we will be supplying [VirtualMachines]({{site.url}}VirtualBox.html) (VMs) which can run on any 64-bit operating system and will have the various software packages pre-installed.
     These will emulate:
     * **Windows**, which is preinstalled with
         * Dr. Altenbach's LabView packages
