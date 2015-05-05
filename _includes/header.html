@@ -27,7 +27,7 @@
                         {% endif %}
                         {% endif %}
                         {% endfor %}
-                        <span style='margin-left: 20px;'>Software Installation and Testing:</span>
+                        <span style='margin-left: 10px;'><i>and Information for Software Packages:</i></span>
                         {% for p in site.pages where p.url.size > 11 %}
                         {% assign a = (p.url | truncate: 11, '.') %}
                         {% if a == '/Software/.' %}

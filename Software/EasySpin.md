@@ -8,6 +8,7 @@ attribution: S. Stoll
 
 Follow the instructions below, which are coped from [the EasySpin homepage](http://easyspin.org/installation.html),
 
+-----------------------------------------------------------
 
 ## Download and requirements
 
