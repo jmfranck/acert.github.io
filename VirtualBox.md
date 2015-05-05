@@ -8,6 +8,7 @@ recipe-attribution: J. Franck
 ### Requirements
 * **Any** 64bit operating system (unfortunately, 32bit OS not supported).
 * Administrative/root access on your laptop.
+* *On Linux boxes*, it seems that the distribution's package for the kernel headers (eg., on debian this is linux-headers-amd64) is required.
 
 ### Installation Instructions
 
@@ -22,6 +23,7 @@ recipe-attribution: J. Franck
         1. Note the location of the **program executable** (e.g. `C:\Program Files\Oracle\VirtualBox\VirtualBox.exe`).
         1. Type `cmd` into start menu/screen: right click → run as administrator
         1. Type **program executable** followed by full path to (e.g. `C:\Program Files\Oracle\VirtualBox\VirtualBox.exe` `C:\Users\jmf356\Downloads\Oracle_VM_VirtualBox_Extension_Pack-4.3.26-98988.vbox-extpack`)
+            * On Unix systems, this step must be run as root/sudo
 1. Download the Virtual Machine [(VM) image from here]().
 1. Double-click on the VM image in order to import it.
     * Leave all default settings.
