@@ -38,6 +38,13 @@ ul, ol, dl, figure,
     margin-bottom: $spacing-unit / 2;
 }
 
+p {
+    text-indent: 50px;
+}
+ul,ol {
+    text-indent: 0px;
+}
+
 
 
 /**

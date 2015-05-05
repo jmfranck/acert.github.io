@@ -7,6 +7,13 @@ There will be two ways to participate in the workshops:
     Therefore, we will be supplying [VirtualMachines]({{site.url}}VirtualBox.html) (VMs) which can run on any 64-bit operating system and will have the various software packages pre-installed.
     These will emulate:
     * **Windows**, which is preinstalled with
-        * Dr. Altenbach's LabView packages
+        - [ ] Dr. Altenbach's LabView packages
+        - [ ] NLSL
     * **Linux**, which is preinstalled with
-        * EasySpin
+        - [ ] EasySpin
+        - [ ] Spinach
+        - [ ] NLSL
+        - [ ] Matlab
+        - [ ] Prof. Fajer's Matlab Package
+        - [ ] SALEM
+        - [ ] ORCA
