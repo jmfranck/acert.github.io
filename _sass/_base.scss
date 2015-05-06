@@ -194,11 +194,15 @@ pre {
         padding-left: $spacing-unit / 2;
     }
 }
-.mytext {
-    display: inline-block;
+.top-left {
+    text-align: center;
     vertical-align: top;
     margin: 0;
     border: 0;
+    width: 90%;
+    a {
+    color: $text-color;
+    }
 }
 .wrapper {
     width: #{$right-width - 2*$spacing-unit};
