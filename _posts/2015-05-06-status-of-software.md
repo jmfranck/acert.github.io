@@ -1,3 +1,12 @@
+---
+layout: post
+title: "Some Software Information Posted"
+description: ""
+category: 
+tags: []
+---
+{% include JB/setup %}
+
 There will be two ways to participate in the workshops:
 
 * Preferred: **Install on Personal Laptop**:

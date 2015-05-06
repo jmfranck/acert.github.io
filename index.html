@@ -24,8 +24,10 @@ layout: default
 
   <h2>Software</h1>
 
-    {% capture my_include %}{% include FrontPage.md %}{% endcapture %}
-    {{ my_include | markdownify kramdown }}
+  {%if False%}
+  {% capture my_include %}{% include FrontPage.md %}{% endcapture %}
+  {{ my_include | markdownify kramdown }}
+  {%endif%}
 
 
 </div>
