@@ -2,11 +2,11 @@
 
   <div class="top-wrapper">
 
-      <h2 class="footer-heading"><a href="{{site.url}}">{{ site.title }}</a></h2>
 
     <div class="footer-col-wrapper">
       <div class="footer-col  footer-col-1">
         <ul class="contact-list">
+            <li><h2 class="footer-heading">{{ site.title }}</h2><a href="{{site.url}}">Main Page</a></li>
           <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
           <li>Go to <a href="http://www.acert.cornell.edu/">ACERT homepage</a>.
         </ul>
@@ -14,6 +14,7 @@
 
       <div class="footer-col  footer-col-2">
         <ul class="social-media-list">
+          <li>&nbsp;</li>
           {% if site.github_username %}
           <li>
             <a href="https://github.com/{{ site.github_username }}">
