@@ -4,9 +4,12 @@ layout: default
 
 <div class="home">
     <h1>Welcome!</h1>
-    Below, you will find posts of recent announcements, as well as notes on the software that will be used at the conference.
+  {% capture my_include %}{% include FrontPage.md %}{% endcapture %}
+  {{ my_include | markdownify kramdown }}
 
-    In the links above, you can find up-to-date information about registration and the seminars, as well.
+  <p>Below, you will find posts of recent announcements, as well as notes on the software that will be used at the conference.</p>
+
+  <p>In the links above, you can find up-to-date information about registration, seminars, and software installation.</p>
   <h2>Posts</h1>
   <ul class="post-list">
     {% for post in site.posts %}
@@ -21,11 +24,5 @@ layout: default
   </ul>
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-  {%if False%}
-  {% capture my_include %}{% include FrontPage.md %}{% endcapture %}
-  {{ my_include | markdownify kramdown }}
-  {%endif%}
-
 
 </div>
