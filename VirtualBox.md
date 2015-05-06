@@ -9,6 +9,7 @@ recipe-attribution: J. Franck
 * **Any** 64bit operating system (unfortunately, 32bit OS not supported).
 * Administrative/root access on your laptop.
 * *On Linux boxes*, it seems that the distribution's package for the kernel headers (eg., on debian this is linux-headers-amd64) is required.
+* ***Unfortuantely, the VM software will require at least 30 Gb of hard drive space to install,*** so please ensure that you have this space on your laptop.  We additionally encourage all participants to install both VM environments before arriving -- even if they are only intended as a backup option.
 
 ## Installation Instructions
 
@@ -37,9 +38,13 @@ We *strongly* recommend that you complete this procedure before attending the co
 1. Double-click on the VM image in order to import it.
     * Leave all default settings.
     * *do not* reinitialize the network adapter (MAC)
+1. Once the VM has been imported, we recommend that you right click on the VM inside VirtualBox → Settings → System icon → Memory and CPU tabs → Make sure the sliding bars are in the green zone, ideally towards the top.
+    * If you get an error about not having enough memory, etc., it's likely because you've set the bars into the red zone.
 1. Run the Virtual Machine by clicking "Start"
-    * Select "Don't show this message again" and click OK.
-    * Select `<Right Cntrl>-c` to switch to "scaled mode".
+1. Log on as the ACERT User with password `acertrules`.
+    * If you changed the memory settings as noted above, you may be asked to "Restart Your Machine" (i.e. the VM).  Do this.
+    * Select `<Right Cntrl>-c` to switch to "scaled mode."
 1. When done, if the mouse will not leave the window, press the right `Cntrl` key to release the mouse.
-
+    * Press `<Right Cntrl>-c` to leave "scaled mode."
+    * In the VM window, select Machine →  Close → "Save the Machine State" (This will prevent you from having to "log in" again).
 And beyond... for a useful list of VirtualBox features [check here](http://www.howtogeek.com/171228/10-virtualbox-tricks-and-advanced-features-you-should-know-about/)

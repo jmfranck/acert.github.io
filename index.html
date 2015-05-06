@@ -3,7 +3,11 @@ layout: default
 ---
 
 <div class="home">
-  <h1 class="page-heading">Posts</h1>
+    <h1>Welcome!</h1>
+    Below, you will find posts of recent announcements, as well as notes on the software that will be used at the conference.
+
+    In the links above, you can find up-to-date information about registration and the seminars, as well.
+  <h2>Posts</h1>
   <ul class="post-list">
     {% for post in site.posts %}
       <li>
@@ -18,7 +22,7 @@ layout: default
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
-  <h1 class="page-heading">Software</h1>
+  <h2>Software</h1>
 
     {% capture my_include %}{% include FrontPage.md %}{% endcapture %}
     {{ my_include | markdownify kramdown }}
