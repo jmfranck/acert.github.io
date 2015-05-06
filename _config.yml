@@ -11,3 +11,4 @@ github_username:  jmfranck
 # Build settings
 #markdown: kramdown
 markdown: redcarpet
+VMs_available: False

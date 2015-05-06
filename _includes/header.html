@@ -27,16 +27,8 @@
                         {% endif %}
                         {% endif %}
                         {% endfor %}
-                        <span style='margin-left: 10px;'><i>and Information for Software Packages:</i></span>
-                        {% for p in site.pages where p.url.size > 11 %}
-                        {% assign a = (p.url | truncate: 11, '.') %}
-                        {% if a == '/Software/.' %}
-                        <a class="page-link" href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a>
-                        {% endif %}
-                        {% endfor %}
                     </div>
                 </nav>
-
             </div>
         </div>
     </header>

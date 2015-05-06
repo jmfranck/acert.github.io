@@ -1,6 +1,10 @@
 /**
  * Site header
  */
+h1 {
+    border-bottom: 1px solid $grey-color-dark;
+    line-height: #{0.75*$base-line-height};
+}
 .floating-top {
     position: fixed;
     background: rgba(238,219,212,0.95);

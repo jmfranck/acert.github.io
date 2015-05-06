@@ -2,7 +2,7 @@
 layout: default
 title: Registration
 ---
-# [***Register***](http://www.acert.cornell.edu/index_files/Registration_Form_ACERT2015_Workshop.pdf) *** it's coming soon...***
+## [***Register***](http://www.acert.cornell.edu/index_files/Registration_Form_ACERT2015_Workshop.pdf) *** it's coming soon...***
 
 # 2015 ACERT WORKSHOP      
 
