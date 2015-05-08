@@ -1,12 +1,12 @@
 ---
 layout: default
-title: ESR LabView
+title: ESR LabVIEW
 attribution: C. Altenbach
 # recipe-attribution-link: http://www.opensourcefood.com/people/HungryJenny/recipes/soft-christmas-gingerbread-cookies
 ---
 # {{ page.title }} Installation
 
-The following instructions are for the LabView programs developed in the [Hubbel lab](http://www.chemistry.ucla.edu/directory/hubbell-wayne-l),
+The following instructions are for the LabVIEW programs developed in the [Hubbel lab](http://www.chemistry.ucla.edu/directory/hubbell-wayne-l),
     and were downloaded and modified from [Dr. Altenbach's site](https://sites.google.com/site/altenbach/labview-programs/why-labview)
 
 -----------------------------------------------------------

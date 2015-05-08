@@ -22,7 +22,7 @@ We are asking for your help to get your software installed onto these VMs.  An i
     * Note that people can simultaneously connect to the TeamViewer session, and this log also lets you make sure that no one else is currently using the session.
     * If the mouse is moving "on it's own" someone else is using the session → Please try back later
 1. Install your software as normal.
-    * The LabView SPI (Windows), Matlab (Linux), and EasySpin (Linux) were installed when the VM was set up.
+    * The LabVIEW SPI (Windows), Matlab (Linux), and EasySpin (Linux) were installed when the VM was set up.
     * Firefox (and ssh, etc.) should work as normal, allowing you to download your software onto the machine.  If you install any additional software, please note it in the text editor.
 1. As you install, please take this as an opportunity to format installation instructions for those who want to install the software directly on their computer.  Please email this to the address below. (Please email source documents, not PDFs)
 1. Be sure to run the software that you will want to demonstrate during the workshop.
