@@ -9,6 +9,7 @@ h1 {
 .floating-top {
     position: fixed;
     background: rgba(238,219,212,0.9);
+    // was going to change to background: rgba(235,242,215,0.9); but not as good
     top: 0;
     width: 100%;
     border: 0;
@@ -179,7 +180,7 @@ h1 {
  * Page content
  */
 .page-content {
-    margin: 130px auto 0;
+    margin: 110px auto 0;
     padding: 0;
     width: 100%;
     max-width: #{$content-width};
