@@ -4,7 +4,7 @@
         <div class="top-content">
             <div class="figure-wrapper">
                 <div class="top-left">
-                    <a href="http://www.acert.cornell.edu/"><img src="{{site.baseurl}}/acert_logo.png" width="75%"/></a>
+                    <a href="{{site.url}}"><img src="{{site.baseurl}}/acert_logo.png" width="75%"/></a>
                 <br/>
                 <a href="{{ site.baseurl }}/"><h3>2015 Workshop</h3></a>
                 </div>
@@ -29,16 +29,8 @@
                         {% endif %}
                         {% endif %}
                         {% endfor %}
-                        <span style='margin-left: 10px;'><i>and Information for Software Packages:</i></span>
-                        {% for p in site.pages where p.url.size > 11 %}
-                        {% assign a = (p.url | truncate: 11, '.') %}
-                        {% if a == '/Software/.' %}
-                        <a class="page-link" href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a>
-                        {% endif %}
-                        {% endfor %}
                     </div>
                 </nav>
-
             </div>
         </div>
     </header>

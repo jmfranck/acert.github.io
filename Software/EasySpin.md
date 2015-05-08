@@ -6,7 +6,7 @@ attribution: S. Stoll
 ---
 # {{ page.title }} Installation
 
-Follow the instructions below, which are coped from [the EasySpin homepage](http://easyspin.org/installation.html),
+Follow the instructions below, which are coped from [the EasySpin homepage](http://easyspin.org/installation.html).
 
 -----------------------------------------------------------
 
