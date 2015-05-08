@@ -1,0 +1,35 @@
+---
+layout: default
+---
+<h3>Check it out:</h3>
+<script type="text/javascript">// <![CDATA[
+function toggleMe(a){ 
+var e=document.getElementById(a); 
+var i = document.getElementById(a + '_image');
+if(!e)return true; 
+if(e.style.display=="none"){ 
+e.style.display="block" 
+i.src = 'http://laimages.s3.amazonaws.com/data/imagemanager/382/Arrow-Down-GreenShade30.png';
+} else { 
+e.style.display="none" 
+i.src = 'http://laimages.s3.amazonaws.com/data/imagemanager/382/Arrow-Right-GreenShade30.png';
+} 
+return false; 
+}
+// ]]></script>
+<h3><a style="cursor: pointer;" onclick="return toggleMe('para1')"><img id="para1_image" src="http://laimages.s3.amazonaws.com/data/imagemanager/382/Arrow-Right-GreenShade30.png" style="border: 0; margin-right: 5px; vertical-align: middle;" />How does this work?</a></h3>
+<div id="para1" style="display: none;">By using the steps/code above, you'll be able to make a list of questions and have the answers expand/hide whenever anyone clicks on a question.</div>
+<h3><a style="cursor: pointer;" onclick="return toggleMe('para2')"><img id="para2_image" src="http://laimages.s3.amazonaws.com/data/imagemanager/382/Arrow-Right-GreenShade30.png" style="border: 0; margin-right: 5px; vertical-align: middle;" />Isn't this awesome?</a></h3>
+<div id="para2" style="display: none;">Sure is! :)</div>
+<h3><a style="cursor: pointer;" onclick="return toggleMe('para3')"><img id="para3_image" src="http://laimages.s3.amazonaws.com/data/imagemanager/382/Arrow-Right-GreenShade30.png" style="border: 0; margin-right: 5px; vertical-align: middle;" />Can I use HTML in my answers?</a></h3>
+<div id="para3" style="display: none;">Absolutely! Check out this list of awesome links:
+<ul>
+<li><a href="http://guidefaq.com/">Guide FAQ</a></li>
+<li><a href="http://help.springshare.com/">Springshare Help</a></li>
+<li><a href="http://blog.springshare.com/">Springshare Support Blog</a>: Keep up with all the new functionality - keep up with our blog!</li>
+<li><a href="http://springsharelounge.com/">Springshare Lounge</a>: Keep up with all Springshare users!</li>
+</ul>
+</div>
+<h3><a style="cursor: pointer;" onclick="return toggleMe('para4')"><img id="para4_image" src="http://laimages.s3.amazonaws.com/data/imagemanager/382/Arrow-Right-GreenShade30.png" style="border: 0; margin-right: 5px; vertical-align: middle;" />See the code that makes this section work:</a></h3>
+<div id="para4" style="display: none;"><span style="color: #000066;">&lt;script type="text/javascript"&gt;<br />function toggleMe(a){<br />var e=document.getElementById(a);<br />var i = document.getElementById(a + '_image');<br />if(!e)return true;<br />if(e.style.display=="none"){<br />e.style.display="block"<br />i.src = 'http://laimages.s3.amazonaws.com/data/imagemanager/382/Arrow-Down-GreenShade30.png';<br />} else {<br />e.style.display="none"<br />i.src = 'http://laimages.s3.amazonaws.com/data/imagemanager/382/Arrow-Right-GreenShade30.png';<br />}<br />return false;<br />}<br />&lt;/script&gt;<br /><br /> &lt;h3&gt;&lt;a style="cursor:pointer;" onclick="return toggleMe('para1')"&gt;&lt;img id="para1_image" src="http://laimages.s3.amazonaws.com/data/imagemanager/382/Arrow-Right-GreenShade30.png" style="border:0;margin-right:5px;vertical-align:middle;" /&gt;How does this work?&lt;/a&gt;&lt;/h3&gt;<br /> &lt;div id="para1" style="display:none;"&gt;<br /> By using the steps/code above, you'll be able to make a list of questions and have the answers expand/hide whenever anyone clicks on a question.<br /> &lt;/div&gt;<br /> &lt;h3&gt;&lt;a style="cursor:pointer;" onclick="return toggleMe('para2')"&gt;&lt;img id="para2_image" src="http://laimages.s3.amazonaws.com/data/imagemanager/382/Arrow-Right-GreenShade30.png" style="border:0;margin-right:5px;vertical-align:middle;" /&gt;Isn't this awesome?&lt;/a&gt;&lt;/h3&gt;<br />&lt;div id="para2" style="display:none;"&gt;<br /> Sure is! :)<br /> &lt;/div&gt;<br /> &lt;h3&gt;&lt;a style="cursor:pointer;" onclick="return toggleMe('para3')"&gt;&lt;img id="para3_image" src="http://laimages.s3.amazonaws.com/data/imagemanager/382/Arrow-Right-GreenShade30.png" style="border:0;margin-right:5px;vertical-align:middle;" /&gt;Can I use HTML in my answers?&lt;/a&gt;&lt;/h3&gt;<br /> &lt;div id="para3" style="display:none;"&gt;<br /> Absolutely! Check out this list of awesome links:<br /> &lt;ul&gt;<br /> &lt;li&gt;&lt;a href="http://guidefaq.com/"&gt;Guide FAQ&lt;/a&gt;&lt;/li&gt;<br /> &lt;li&gt;&lt;a href="http://help.springshare.com/"&gt;Springshare Help&lt;/a&gt;&lt;/li&gt;<br /> &lt;li&gt;&lt;a href="http://blog.springshare.com/"&gt;Springshare Support Blog&lt;/a&gt;: Keep up with all the new functionality - keep up with our blog!&lt;/li&gt;<br /> &lt;li&gt;&lt;a href="http://springsharelounge.com/"&gt;Springshare Lounge&lt;/a&gt;: Keep up with all Springshare users!&lt;/li&gt;<br /> &lt;/ul&gt;<br /> &lt;/div&gt; </span></div>
+</div>
