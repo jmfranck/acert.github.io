@@ -9,7 +9,8 @@ attribution: Ilya Kuprov, Hannah J. Hogben, Luke J. Edwards, Matthew Krzystyniak
 The following instructions are for the Spinach programs developed by Ilya Kuprov, 
 Hannah J. Hogben, Luke J. Edwards, Matthew Krzystyniak, Peter J. Hore, 
 Gareth T.P. Charnock, and Dmitry Savostyanov, and were downloaded and 
-modified from [Spinach homepage] (http://spindynamics.org/Spinach.php).
+modified from [Spinach homepage](http://spindynamics.org/Spinach.php).
+
 -----------------------------------------------------------
 
 ## Download and requirements
