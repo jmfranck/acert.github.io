@@ -2,10 +2,13 @@
 layout: default
 title: VirtualBox Installation
 recipe-attribution: J. Franck
+markdown: kramdown
 # recipe-attribution-link: http://www.opensourcefood.com/people/HungryJenny/recipes/soft-christmas-gingerbread-cookies
 ---
 # VirtualBox Installation
+
 ## Requirements
+
 * **Any** 64bit operating system (unfortunately, 32bit OS not supported).
 * Administrative/root access on your laptop.
 * *On Linux boxes*, it seems that the distribution's package for the kernel headers (eg., on debian this is linux-headers-amd64) is required.
@@ -39,12 +42,15 @@ We *strongly* recommend that you complete this procedure before attending the co
     * Leave all default settings.
     * *do not* reinitialize the network adapter (MAC)
 1. Once the VM has been imported, we recommend that you right click on the VM inside VirtualBox → Settings → System icon → Memory and CPU tabs → Make sure the sliding bars are in the green zone, ideally towards the top.
-    * If you get an error about not having enough memory, etc., it's likely because you've set the bars into the red zone.
 1. Run the Virtual Machine by clicking "Start"
+    * If you get an error about not having enough memory, etc., it's likely because you've set the bars into the red zone (see previous step).
+    * If you get an error about having a 32bit processor, you likely need to enable virtualization in your computer's BIOS
+        * typically press `<F2>` during bootup to access settings; virtualization might be under a menu setting such as "CPU" or "performance"
+        * if this is set up and you are running windows, make sure that hyper-v or xp mode are not enabled on the host.
 1. Log on as the ACERT User with password `acertrules`.
     * If you changed the memory settings as noted above, you may be asked to "Restart Your Machine" (i.e. the VM).  Do this.
     * Select `<Right Cntrl>-c` to switch to "scaled mode."
 1. When done, if the mouse will not leave the window, press the right `Cntrl` key to release the mouse.
     * Press `<Right Cntrl>-c` to leave "scaled mode."
     * In the VM window, select Machine →  Close → "Save the Machine State" (This will prevent you from having to "log in" again).
-And beyond... for a useful list of VirtualBox features [check here](http://www.howtogeek.com/171228/10-virtualbox-tricks-and-advanced-features-you-should-know-about/)
+And beyond... for a useful list of VirtualBox features [check here](http://www.howtogeek.com/171228/10-virtualbox-tricks-and-advanced-features-you-should-know-about/){:target="_blank"}
