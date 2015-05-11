@@ -12,7 +12,7 @@ We are asking for your help to get your software installed onto these VMs.  An i
 
 ### Please follow these instructions to install your software:
 
-1. If you don't have it, please download and install [TeamViewer](https://www.teamviewer.com/)
+1. If you don't have it, please download and install [TeamViewer](https://www.teamviewer.com/){:target="_blank"}
 1. We emailed you the information that you need to connect to the appropriate VM.
     * The partner ID that we sent is specific to the Linux VM or the Windows VM.
     * Currently, Matlab is only installed on the Linux version.  If your software will *only* run on Matlab for Windows, please let us know.

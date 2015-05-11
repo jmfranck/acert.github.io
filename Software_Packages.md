@@ -13,6 +13,9 @@ This VM is a complete bundle consisting of a complete operating system will all 
 However, VirtualBox provides a temporary and low-performance solution. 
 We **strongly encourage** attendees to additionally install the software on their laptops or a server that they can remotely connect to, as detailed in the instructions below.
 This will allow you to continue to use the software after the workshop is over.
+
 #{{page.title}}
+
 {% for p in site.pages where p.url.size > 11 %}{% assign a = (p.url | truncate: 11, '.') %}{% if a == '/Software/.' %}* <a class="page-link" href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a>
+
 {% endif %}{% endfor %}

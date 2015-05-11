@@ -17,7 +17,7 @@ June 9-12, 2015
 Plans continue for ACERT's (Center for Advanced ESR Technology) workshop
 entitled “**Computational Methods in ESR** taking place **on June
 9-12** at Cornell University, Ithaca, NY, USA. 
-[Registrations](http://www.acert.cornell.edu/index_files/Registration_Form_ACERT2015_Workshop.pdf)
+[Registrations](http://www.acert.cornell.edu/index_files/Registration_Form_ACERT2015_Workshop.pdf){:target="_blank"}
 are being accepted.
 
 ### Who Should Attend:
@@ -52,12 +52,11 @@ includes the coffee breaks, 3 lunches, reception, and dinner.  
 - *Checks* should be made payable to “Cornell University.
 - For *Direct Bank Transfer* payment instructions, please see [Bank
   Transfer
-  Instructions](http://www.acert.cornell.edu/index_files/BANK_WIRE_TRANSFERS_INSTRUCTIONS.pdf)
-- For *Credit Card*: Use the Cornell Business Services URL:
-    <https://creditcard.cbs.cornell.edu/billing.aspx?eventid=8A7E5FC4-1ADC-40D6-943F-4601BFEE802B>
+  Instructions](http://www.acert.cornell.edu/index_files/BANK_WIRE_TRANSFERS_INSTRUCTIONS.pdf){:target="_blank"}
+- For *Credit Card*: Use the Cornell [Business Services](https://creditcard.cbs.cornell.edu/billing.aspx?eventid=8A7E5FC4-1ADC-40D6-943F-4601BFEE802B){:target="_blank"}.
 
 ### TO REGISTER for the workshop:
-[click here](http://www.acert.cornell.edu/index_files/Registration_Form_ACERT2015_Workshop.pdf)
+[click here](http://www.acert.cornell.edu/index_files/Registration_Form_ACERT2015_Workshop.pdf){:target="_blank"}
 
 **Mail or Email your REGISTRATION** to:
 
@@ -86,7 +85,11 @@ E-mail: <acert@cornell.edu>
 * 7:30am – 8:30am Coffee and Registration.
 * 8:40am Lectures Begin.
 * Lectures are 40 minutes followed by 10 minutes of discussion for each talk.
-* After the opening introductory lecture by Jack Freed, the talks will emphasize Computational Methods for: Stochastic Liouville Equation for 1D and 2D ESR for Proteins and Membranes; Stochastic Modeling and Molecular Dynamics for ESR; Many* Body Theory for Spin Relaxation in Solids; MMM* type Methods for Predicting Distance Distributions for DEER and DQC; DFT Theory for g and hf Tensors.
+* After the opening introductory lecture by Jack Freed, the talks will emphasize Computational Methods for:
+    * Stochastic Liouville Equation for 1D and 2D ESR for Proteins and Membranes
+    * Stochastic Modeling and Molecular Dynamics for ESR; Many Body Theory for Spin Relaxation in Solids
+    * MMM type Methods for Predicting Distance Distributions for DEER and DQC
+    * DFT Theory for g and hf Tensors
 * Special Winery Dinner (optional)
 
 **Thursday June 11th**
@@ -132,7 +135,7 @@ Commons.  <http://www.comfortinn.com/hotel-ithaca-new_york-NY199>
 29 Thornwood Drive, Ithaca   
 
 **ACERT Conference Rate** US $143.00/night.  Book online: visit
-[marriott.com/ITHCY](http://www.marriott.com/hotels/travel/ithcy-courtyard-ithaca/),
+[marriott.com/ITHCY](http://www.marriott.com/hotels/travel/ithcy-courtyard-ithaca/){:target="_blank"},
 enter corporate/promotional code ZUJ . Or call 866-237-5979 and ask for
 the Cornell University Visitor’s Rate. Hotel is located just 4 miles
 from Cornell University. Offers complimentary shuttle service to

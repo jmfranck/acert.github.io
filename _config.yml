@@ -9,6 +9,6 @@ url: "http://symposium2015.acert.cornell.edu" # the base hostname & protocol for
 #twitter_username: jekyllrb
 github_username:  jmfranck
 # Build settings
-#markdown: kramdown
-markdown: redcarpet
+markdown: kramdown
+#markdown: redcarpet
 VMs_available: False
