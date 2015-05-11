@@ -19,7 +19,7 @@ markdown: kramdown
 ***Please note:*** It can take several hours to download the needed files below, and the installation and initialization can take 1-1.5 hrs.
 We *strongly* recommend that you complete this procedure before attending the conference.
 
-1. Download [Oracle VirtualBox](https://www.virtualbox.org/wiki/Downloads) and the [extension pack](http://download.virtualbox.org/virtualbox/4.3.26/Oracle_VM_VirtualBox_Extension_Pack-4.3.26-98988.vbox-extpack).
+1. Download [Oracle VirtualBox](https://www.virtualbox.org/wiki/Downloads){:target="_blank"} and the [extension pack](http://download.virtualbox.org/virtualbox/4.3.26/Oracle_VM_VirtualBox_Extension_Pack-4.3.26-98988.vbox-extpack).
 1. Install VirtualBox
     * Administrative/root access is required.
     * Be sure to allow it to associate file extensions.
@@ -34,7 +34,7 @@ We *strongly* recommend that you complete this procedure before attending the co
 1. Download both Virtual Machines<a name="download"></a>:{% if site.VMs_available %}
     * VM that hosts Windows programs:
         * a [set of compressed images]()
-            * use [7zip](http://www.7-zip.org/) (Windows), the xz-utils package (Unix/Mac), or StuffIt (OS X > 10.4) to extract the image
+            * use [7zip](http://www.7-zip.org/){:target="_blank"} (Windows), the xz-utils package (Unix/Mac), or StuffIt (OS X > 10.4) to extract the image
         * (less preferred) [as one file]().
 {% else %}  
 *(While we recommend that you install VirtualBox as soon as possible, the images (VMs) for the workshop are currently under construction.)*{% endif %}

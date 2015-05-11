@@ -36,7 +36,7 @@ the software.  
 
 ***ACERT SPEAKERS***
 
-*    **Freed, Jack**
+* **Freed, Jack**
 
     ***Introduction to Computational ESR and to Producing Noiseless Spectra from Noisy Ones***
 

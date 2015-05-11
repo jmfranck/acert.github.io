@@ -3,11 +3,15 @@ layout: default
 title: Speakers
 ---
 # 2015 ACERT WORKSHOP
+
 Computational Methods in ESR
 ----------------------------
+
 Cornell University, Ithaca, New York USA
+
 June 9-12, 2015
 ----------------------------
+
 The workshop will have **two parts**: 
  the **first
 part** will consist of lectures on state-of-the-art methods and the
@@ -16,8 +20,11 @@ the software.
  
 
 # SPEAKERS, TOPICS AND SOFTWARE
+
 ## Part 1: Lectures
+
 ### ACERT SPEAKERS
+
 *    **Freed, Jack**  
     *Introduction to Computational ESR and to Producing Noiseless Spectra from Noisy Ones*
 * **Liang, Zhichun**  
