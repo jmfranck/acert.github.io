@@ -5,8 +5,10 @@ attribution: J. Franck
 ---
 **Important Note:**
 To participate in the Workshops, you will need to install
-[VirtualBox]({{site.baseurl}}/VirtualBox.html) and the pre-built VMs that we will
-be supplying. {%include VM_status.md%} 
+[VirtualBox]({{site.baseurl}}/VirtualBox.html) and the pre-built Virtual Machines (VMs) that we will
+be supplying.
+This VM is a complete bundle consisting of a complete operating system will all conference software pre-installed.
+{%include VM_status.md%} 
 
 However, VirtualBox provides a temporary and low-performance solution. 
 We **strongly encourage** attendees to additionally install the software on their laptops or a server that they can remotely connect to, as detailed in the instructions below.
