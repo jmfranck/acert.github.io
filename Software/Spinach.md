@@ -1,9 +1,8 @@
 ---
 layout: default
 title: Spinach
-attribution: Ilya Kuprov, Hannah J. Hogben, Luke J. Edwards, Matthew Krzystyniak, 
-Peter J. Hore, Gareth T.P. Charnock, and Dmitry Savostyanov
-# recipe-attribution-link: http://www.opensourcefood.com/people/HungryJenny/recipes/soft-christmas-gingerbread-cookies
+attribution: Ilya Kuprov, Hannah J. Hogben, Luke J. Edwards, Matthew Krzystyniak,Peter J. Hore, Gareth T.P. Charnock, and Dmitry Savostyanov
+
 ---
 # {{ page.title }} Installation
 
