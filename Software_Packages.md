@@ -17,5 +17,4 @@ This will allow you to continue to use the software after the workshop is over.
 #{{page.title}}
 
 {% for p in site.pages where p.url.size > 11 %}{% assign a = (p.url | truncate: 11, '.') %}{% if a == '/Software/.' %}* <a class="page-link" href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a>
-
 {% endif %}{% endfor %}
