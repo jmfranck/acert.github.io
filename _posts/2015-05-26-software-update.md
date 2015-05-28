@@ -7,10 +7,10 @@ tags: []
 ---
 {% include JB/setup %}
 
-### Check on June 4<sup>th</sup> for software download! ###
+### Check on June 5<sup>th</sup> for software download! ###
 
-Due to the fact that many presenters are actively developing their contribution to the workshop, we plan on releasing the pre-installed software packages (VMs) by **June 4<sup>th</sup>**.
-Please [install VirtualBox]({{site.url}}/VirtualBox.html) immediately and plan on checking back on **June 4<sup>th</sup>** to download the software before arriving.
+Due to the fact that many presenters are actively developing their contribution to the workshop, we plan on releasing the pre-installed software packages (VMs) by **June 5<sup>th</sup>**.
+Please [install VirtualBox]({{site.url}}/VirtualBox.html) immediately and plan on checking back on **June 5<sup>th</sup>** to download the software before arriving.
 
 ### Computer Requirements ###
 
