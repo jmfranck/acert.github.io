@@ -22,4 +22,7 @@ layout: default
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
+{% capture my_include %}{% include sponsorship.md %}{% endcapture %}
+  {{ my_include | markdownify kramdown }}
+
 </div>
