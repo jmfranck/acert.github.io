@@ -31,6 +31,7 @@ We *strongly* recommend that you complete this procedure before attending the co
         1. Type `cmd` into start menu/screen: right click → run as administrator
         1. Type **program executable** followed by full path to the **extension pack** (e.g. `C:\Program Files\Oracle\VirtualBox\VirtualBox.exe` `C:\Users\jmf356\Downloads\Oracle_VM_VirtualBox_Extension_Pack-4.3.26-98988.vbox-extpack`)
     * On **Unix**-based systems, this step must be run as root/sudo
+    * On the **Mac** you run `open /Applications/VirtualBox.app ~/Downloads/Oracle_VM_VirtualBox_Extension_Pack-4.3.26-98988.vbox-extpack`
 1. Download both Virtual Machines<a name="download"></a>:{% if site.VMs_available %}
     * VM that hosts Windows programs:
         * a [set of compressed images]()
