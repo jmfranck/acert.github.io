@@ -7,9 +7,11 @@ layout: default
   {% capture my_include %}{% include FrontPage.md %}{% endcapture %}
   {{ my_include | markdownify kramdown }}
 
+  <p>In the links above, you can find up-to-date information about registration, seminars, and software installation.
+  Please do check out the <strong><a href="{{base.url}}/Software_Packages.html">software installation</a> as soon as possible</strong>, so you know what's involved!</p>
+
   <p>Below, you will find posts of recent announcements, as well as notes on the software that will be used at the conference.</p>
 
-  <p>In the links above, you can find up-to-date information about registration, seminars, and software installation.</p>
   <h2>Posts</h1>
   <ul class="post-list">
     {% for post in site.posts %}

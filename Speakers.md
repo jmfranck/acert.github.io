@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Speakers
+title: Lectures/Workshops
 ---
 # 2015 ACERT WORKSHOP
 
