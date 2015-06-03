@@ -50,7 +50,9 @@ We *strongly* recommend that you complete this procedure before attending the co
         * if this is set up and you are running windows, make sure that hyper-v or xp mode are not enabled on the host.
 1. Log on as the ACERT User with password `acertrules`.
     * If you changed the memory settings as noted above, you may be asked to "Restart Your Machine" (i.e. the VM).  Do this.
-    * Select `<Right Cntrl>-c` to switch to "scaled mode."
+    * Select `<Right Cntrl>-c` to switch to "scaled mode,"
+        or `<Right Cntrl>-f` for "full-screen mode."
+        * This is **very important** to make sure that you can load the VM in a timely fashion during the workshops
 1. When done, if the mouse will not leave the window, press the right `Cntrl` key to release the mouse.
     * Press `<Right Cntrl>-c` to leave "scaled mode."
     * In the VM window, select Machine →  Close → "Save the Machine State" (This will prevent you from having to "log in" again).
