@@ -52,8 +52,10 @@ We *strongly* recommend that you complete this procedure before attending the co
     * If you changed the memory settings as noted above, you may be asked to "Restart Your Machine" (i.e. the VM).  Do this.
     * Select `<Right Cntrl>-c` to switch to "scaled mode,"
         or `<Right Cntrl>-f` for "full-screen mode."
-        * This is **very important** to make sure that you can load the VM in a timely fashion during the workshops
+1. Be sure that you can open Matlab (on both VM's -- to open Matlab on Linux, select Applications → System → Terminal (or xterm) and type `matlab &`
 1. When done, if the mouse will not leave the window, press the right `Cntrl` key to release the mouse.
     * Press `<Right Cntrl>-c` to leave "scaled mode."
     * In the VM window, select Machine →  Close → "Save the Machine State" (This will prevent you from having to "log in" again).
+        * This is **very important** to make sure that you can load the VM in a timely fashion during the workshops
+
 And beyond... for a useful list of VirtualBox features [check here](http://www.howtogeek.com/171228/10-virtualbox-tricks-and-advanced-features-you-should-know-about/){:target="_blank"}
