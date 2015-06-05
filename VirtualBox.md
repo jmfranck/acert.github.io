@@ -39,6 +39,9 @@ We *strongly* recommend that you complete this procedure before attending the co
         * (less preferred) [as one file]().
 {% else %}  
 *(While we recommend that you install VirtualBox as soon as possible, the images (VMs) for the workshop are currently under construction.)*{% endif %}
+
+####The following steps need to be repeated for both VM images:
+
 1. Double-click on the VM image in order to import it.
     * Leave all default settings.
     * *do not* reinitialize the network adapter (MAC)
