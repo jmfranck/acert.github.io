@@ -5,11 +5,12 @@ attribution: J. Franck
 ---
 # {{ page.title }}
 
-##Some notes as of 2:50 PM Saturday:
+##Some notes as of 3 PM Saturday:
 
 - The shell script was modified + broken this morning, but should now be fixed for Windows, and may or may not work for Mac.
-    - If you get a syntax error, please run either `dos2unix unpack_linux_vm.sh` or `sed "s/\r//" -i unpack_linux_vm.sh` (either should work, but might not be available on all systems).
-    - (Mac notes:) We don't have a Mac to test it on, have modified based on some feedback, but it might still give very strange errors. If you have a Mac, you might just want to check md5 checksums manually.
+    - 3PM: made some small updates to script, possibly fixed some issues.  If you have problems, first try to re-download.
+    - If you get a syntax error, please run either `dos2unix unpack_linux_vm.sh` or `sed "s/\r//" -i unpack_linux_vm.sh` (this fixes a potential newline issue with the download).
+    - We have not yet had the opportunity to test on Mac or Linux -- if you get shell scripting errors, please send them to John, so we can try to fix them.  Do check the md5sums manually, as well (see below).
 - ***The first upload in the series was broken -- we uploaded a new version of CentOS_final.zip.001, but have not yet verified that it downloads properly***
 
 ## VM Image of Linux System
@@ -23,7 +24,7 @@ Don't click the file name or the large download icon at the top of the page.  Ra
 ![]({{ site.url }}/assets/box_info.png)  
 Do this for all the CentOS* files.
 
-To verify the download and help unpack the image you can save [this shell script]({{ site.url }}/assets/unpack_linux_vm.sh) in the same directory.  It will run on windows if you have git (open bash shell and type `bash unpack_linux_vm.sh`; see [NLSL page]({{ site.url }}/Software/NLSL.html) for install instructions), and should run on Mac or Linux (feeback welcome).  If the script doesn't work for you, you can check the md5 sums [manually](http://www.droidviews.com/check-md5sum-of-a-file-on-windows-mac-and-linux/){:target="_blank"}:
+To verify the download and help unpack the image you can save [this shell script]({{ site.url }}/assets/unpack_linux_vm.sh) in the same directory.  It will run on windows if you have git (open bash shell and type `bash unpack_linux_vm.sh`; see [NLSL page]({{ site.url }}/Software/NLSL.html) for install instructions), and should run on Mac or Linux (feedback welcome).  If the script doesn't work for you, you can check the md5 sums [manually](http://www.droidviews.com/check-md5sum-of-a-file-on-windows-mac-and-linux/){:target="_blank"}:
 
  file name  | md5
 :----------:|:-----------:
@@ -37,8 +38,6 @@ The final file above is the unpacked result.
 If you have any issues with unpacking or installing, please check the md5 sum first!
 
 See the [VirtualBox]({{ site.url }}/VirtualBox.html) page to complete the installation.
-
-*12:30pm Saturday -- updated shell script, which had some problems → verified install of unpacked ova image on Windows*
 
 ## Delay in Upload of Windows Image 
 
