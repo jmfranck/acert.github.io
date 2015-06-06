@@ -5,9 +5,10 @@ attribution: J. Franck
 ---
 # {{ page.title }}
 
-##Some notes as of 2:45 PM Saturday:
+##Some notes as of 2:50 PM Saturday:
 
 - The shell script was modified + broken this morning, but should now be fixed for Windows, and may or may not work for Mac.
+    - If you get a syntax error, please run either `dos2unix unpack_linux_vm.sh` or `sed "s/\r//" -i unpack_linux_vm.sh` (either should work, but might not be available on all systems).
     - (Mac notes:) We don't have a Mac to test it on, have modified based on some feedback, but it might still give very strange errors. If you have a Mac, you might just want to check md5 checksums manually.
 - ***The first upload in the series was broken -- we uploaded a new version of CentOS_final.zip.001, but have not yet verified that it downloads properly***
 
