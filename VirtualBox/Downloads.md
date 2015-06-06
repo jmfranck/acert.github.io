@@ -6,6 +6,7 @@ attribution: J. Franck
 # {{ page.title }}
 
 ##Some notes as of 3 PM Saturday:
+(If it's your first visit, see below first.  This section answers questions and gives updates for people who are having any issues with the download.)
 
 - The shell script was modified + broken this morning, but should now be fixed for Windows, and may or may not work for Mac.
     - 3PM: made some small updates to script, possibly fixed some issues.  If you have problems, first try to re-download.
