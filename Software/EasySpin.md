@@ -74,9 +74,7 @@ toolboxes are needed to run EasySpin.
 
         - *[for ACERT workshop] Note that on Linux, we get the additional subsequent line, which does not indicate any real problem:*
 
-            ~~~~
-            The EasySpin folder is not in MATLAB's search path. Please add it.
-            ~~~~
+            `The EasySpin folder is not in MATLAB's search path. Please add it.`
 
 
 5.  **Documentation**  
