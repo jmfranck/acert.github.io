@@ -16,6 +16,8 @@ export PATH=$PATH:/c/Program\ Files/Oracle/VirtualBox:/c/Program\ Files/7-Zip
 
 read -p "please enter the zip password that you received via email:" password
 
+echo "I'm going to verify the checksums on the files that you downloaded into this directory, this will take a couple minutes..."
+
 if ! command -v md5sum >/dev/null 2>&1; then
     echo "I can't find the md5sum command and I need it!"
     exit 1
