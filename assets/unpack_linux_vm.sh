@@ -1,3 +1,4 @@
+#!/bin/bash
 # started upload at 6:50pm
 
 hash1="e48bc26a8717747be1327fa5ccdcfa30"
@@ -12,7 +13,7 @@ hash_final="b436e96942700b2420c057cb702d234f"
 file_final="CentOS_final.ova"
 
 download_success=1
-export PATH=$PATH:/c/Program\ Files/Oracle/VirtualBox:/c/Program\ Files/7-Zip
+export PATH="$PATH:/c/Program\ Files/Oracle/VirtualBox:/c/Program\ Files/7-Zip"
 
 read -p "please enter the zip password that you received via email:" password
 

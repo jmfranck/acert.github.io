@@ -17,6 +17,8 @@ To verify the download and help unpack the image you can save [this shell script
 
 See the [VirtualBox]({{ site.url }}/VirtualBox.html) page to complete the installation.
 
+*11:30am Saturday Morning -- updated shell script, which had some problems → currently verifying install of unpacked ova image*
+
 ## Delay in Upload of Windows Image 
 
 Our upload bandwidth is ***much*** slower than we anticipated, so the Windows will be uploaded on the night of Saturday, June 6<sup>th</sup>.
