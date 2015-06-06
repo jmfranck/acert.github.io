@@ -17,7 +17,9 @@ export PATH="$PATH:/c/Program\ Files/Oracle/VirtualBox:/c/Program\ Files/7-Zip"
 
 read -p "please enter the zip password that you received via email:" password
 
-echo "I'm going to verify the checksums on the files that you downloaded into this directory, this will take a couple minutes..."
+echo "I'm going to verify the checksums on the files that you downloaded into this directory. This will take a couple minutes..."
+echo " "
+echo " "
 
 opencmd=""
 if command -v start >/dev/null 2>&1; then
