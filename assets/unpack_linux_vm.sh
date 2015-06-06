@@ -80,7 +80,7 @@ if [ $download_success = 1 ]; then
     elif command -v 7z >/dev/null 2>&1; then
         7z x $file1 -o. -P$password
     else
-        echo "I couldn't find either an unzip command or 7zip, but you can unpack the files yourself"
+        echo "I couldn't find either a unzip/zip pair of commands or 7zip, but you can unpack the files yourself"
     fi
 fi
 if [ -e $file_final ]; then
