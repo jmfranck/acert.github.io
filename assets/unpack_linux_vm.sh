@@ -84,7 +84,7 @@ if [ -e $file_final ]; then
         echo "The file didn't unpack correctly! Please delete $file_final and figure out what went wrong!"
     else
         if command -v VBoxManage >/dev/null 2>&1; then
-            VBoxManage import $file_final.ova
+            VBoxManage import $file_final
             VBoxManage startvm thevmname
         else
             echo "I couldn't find VBoxManage, so you will have to import it manually"
