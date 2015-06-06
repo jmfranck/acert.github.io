@@ -33,45 +33,53 @@ fi
 if [ -e $file1 ]; then
     temp=`$md5command $file1 $trailcommand`
     echo "hash is ${temp:0:32}"
-    if [ ${temp:0:32} != $hash1 ]; then
-        echo "$file1 didn't download properly"
+    if [ ${temp:0:32} = $hash1 ]; then
+        echo "$file1 downloaded OK"
+    else
+        echo "$file1 didn't download properly!!!!!!!"
         download_success=0
     fi
 else
     echo "I can't find $file1 in this directory"
     download_success=0
 fi
-if [ -e $file1 ]; then
-    temp=`$md5command $file1 $trailcommand`
+if [ -e $file2 ]; then
+    temp=`$md5command $file2 $trailcommand`
     echo "hash is ${temp:0:32}"
-    if [ ${temp:0:32} != $hash1 ]; then
-        echo "$file1 didn't download properly"
+    if [ ${temp:0:32} = $hash2 ]; then
+        echo "$file2 downloaded OK"
+    else
+        echo "$file2 didn't download properly!!!!!!!"
         download_success=0
     fi
 else
-    echo "I can't find $file1 in this directory"
+    echo "I can't find $file2 in this directory"
     download_success=0
 fi
-if [ -e $file1 ]; then
-    temp=`$md5command $file1 $trailcommand`
+if [ -e $file3 ]; then
+    temp=`$md5command $file3 $trailcommand`
     echo "hash is ${temp:0:32}"
-    if [ ${temp:0:32} != $hash1 ]; then
-        echo "$file1 didn't download properly"
+    if [ ${temp:0:32} = $hash3 ]; then
+        echo "$file3 downloaded OK"
+    else
+        echo "$file3 didn't download properly!!!!!!!"
         download_success=0
     fi
 else
-    echo "I can't find $file1 in this directory"
+    echo "I can't find $file3 in this directory"
     download_success=0
 fi
-if [ -e $file1 ]; then
-    temp=`$md5command $file1 $trailcommand`
+if [ -e $file4 ]; then
+    temp=`$md5command $file4 $trailcommand`
     echo "hash is ${temp:0:32}"
-    if [ ${temp:0:32} != $hash1 ]; then
-        echo "$file1 didn't download properly"
+    if [ ${temp:0:32} = $hash4 ]; then
+        echo "$file4 downloaded OK"
+    else
+        echo "$file4 didn't download properly!!!!!!!"
         download_success=0
     fi
 else
-    echo "I can't find $file1 in this directory"
+    echo "I can't find $file4 in this directory"
     download_success=0
 fi
 

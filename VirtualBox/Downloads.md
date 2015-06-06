@@ -7,6 +7,9 @@ attribution: J. Franck
 
 ## VM Image of Linux System
 
+**Currently diagnosing issues with unpacking script**
+*Please download the files, but we are working on fixing the verification script (Sat 1:24pm)*
+
 Now ready for download!  We have uploaded the image files onto [Cornell Box (click here to download)](https://cornell.box.com/s/o47ptx9wr21ui15zbugjizjanz24jk6c) as a multipart zip image.
 
 Don't click the file name or the large download icon at the top of the page.  Rather, follow the illustration below to get a direct download:  
