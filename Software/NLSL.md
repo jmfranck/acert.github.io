@@ -28,4 +28,10 @@ For the specific examples we will present, we will use both code development too
 
 ## Pull the code
 
-Open a shell (terminal on Mac/Linux, git bash on Windows), and type `git clone `
+Open a shell (terminal on Mac/Linux, git bash on Windows), and type
+`git clone https://jfranck@bitbucket.org/jfranck/nlsl.git`
+
+Note that this will allow you to update changes to the code that we upload before the workshop.
+
+This version is only for the workshop, and is a work in progress.
+Please do not distribute this code or use it for your research yet.  Rather, see the code at the [ACERT webpage](http://www.acert.cornell.edu/index_files/acert_resources.php), where we will also post links to this code when it is complete.
