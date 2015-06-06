@@ -108,12 +108,12 @@ if [ $download_success = 1 ]; then
             echo "The file didn't unpack correctly! Please delete $file_final and figure out what went wrong!"
         else
             if [ $opencmd = "" ]; then
-                echo "You are ready to double-check on the ova to import!!"
+                echo "You are ready to double-click on the ova to import!!"
             else
-                echo "You are ready to double-check on the ova to import!!\nI'm going to try to open it for you -- if this doesn't work, just open the .ova file (from within Virtual Box, or by double-clicking yourself."
+                echo "You are ready to double-click on the ova to import!!\nI'm going to try to open it for you -- if this doesn't work, just open the .ova file (from within Virtual Box, or by double-clicking yourself."
                 $opencmd $file1_final
             fi
-            echo "You are ready to double-check on the ova to import!!\nI'm going to try to open it for you -- if this doesn't work, just open the .ova file (from within Virtual Box, or by double-clicking yourself."
+            echo "You are ready to double-click on the ova to import!!\nI'm going to try to open it for you -- if this doesn't work, just open the .ova file (from within Virtual Box, or by double-clicking yourself."
         fi
     else
         echo "I misplaced the ova file! Put it in the current directory, please."
