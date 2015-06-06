@@ -20,15 +20,18 @@ if ! command -v md5sum >/dev/null 2>&1; then
 fi
 # do the following for each of the files
 if [ -e $file1 ]; then
-    if [ ${`md5sum $file1`:0:32} != $hash1 ]; then
+    temp=`md5sum $file1`
+    if [ ${temp:0:32} = $hash1 ]; then
         echo "$file1 didn't download properly"
         download_success=0
     fi
 else
     echo "I can't find $file1 in this directory"
+    download_success=0
 fi
 if [ -e $file2 ]; then
-    if [ ${`md5sum $file2`:0:32} != $hash2 ]; then
+    temp=`md5sum $file2`
+    if [ ${temp:0:32} != $hash2 ]; then
         echo "$file2 didn't download properly"
         download_success=0
     fi
@@ -37,7 +40,8 @@ else
     download_success=0
 fi
 if [ -e $file3 ]; then
-    if [ ${`md5sum $file3`:0:32} != $hash3 ]; then
+    temp=`md5sum $file3`
+    if [ ${temp:0:32} != $hash3 ]; then
         echo "$file3 didn't download properly"
         download_success=0
     fi
@@ -46,7 +50,8 @@ else
     download_success=0
 fi
 if [ -e $file4 ]; then
-    if [ ${`md5sum $file4`:0:32} != $hash4 ]; then
+    temp=`md5sum $file4`
+    if [ ${temp:0:32} != $hash4 ]; then
         echo "$file4 didn't download properly"
         download_success=0
     fi
