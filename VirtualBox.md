@@ -12,7 +12,7 @@ markdown: kramdown
 * **Any** 64bit operating system (unfortunately, 32bit OS not supported).
 * Administrative/root access on your laptop.
 * *On Linux boxes*, it seems that the distribution's package for the kernel headers (eg., on debian this is linux-headers-amd64) is required.
-* ***Unfortuantely, the VM software will require at least 30 Gb of hard drive space to install,*** so please ensure that you have this space on your laptop.  We additionally encourage all participants to install both VM environments before arriving -- even if they are only intended as a backup option.
+* ***Unfortuantely, the VM software will require at least 60 Gb of hard drive space to install,*** so please ensure that you have this space on your laptop.  We additionally encourage all participants to install both VM environments before arriving -- even if they are only intended as a backup option.
 
 ## Installation Instructions
 
@@ -32,14 +32,7 @@ We *strongly* recommend that you complete this procedure before attending the co
         1. Type **program executable** followed by full path to the **extension pack** (e.g. `C:\Program Files\Oracle\VirtualBox\VirtualBox.exe` `C:\Users\jmf356\Downloads\Oracle_VM_VirtualBox_Extension_Pack-4.3.26-98988.vbox-extpack`)
     * On **Unix**-based systems, this step must be run as root/sudo
     * On the **Mac** you run `open /Applications/VirtualBox.app ~/Downloads/Oracle_VM_VirtualBox_Extension_Pack-4.3.26-98988.vbox-extpack`
-1. Download both Virtual Machines<a name="download"></a>:{% if site.VMs_available %}
-    * VM that hosts Windows programs:
-        * a [set of compressed images]()
-            * use [7zip](http://www.7-zip.org/){:target="_blank"} (Windows), the xz-utils package (Unix/Mac), or StuffIt (OS X > 10.4) to extract the image
-        * (less preferred) [as one file]().
-{% else %}  
-*(While we recommend that you install VirtualBox as soon as possible, the images (VMs) for the workshop are currently under construction.)*{% endif %}
-
+1. Download both Virtual Machines<a name="download"></a>:{% include VM_status.md %}
 ####The following steps need to be repeated for both VM images:
 
 1. Double-click on the VM image in order to import it.

@@ -1,4 +1,2 @@
-{% if site.VMs_available %}
-*(The images are built and [ready to download]({{site.baseurl}}/VirtualBox.html#download.html)!)*
-{% else %} *(While we recommend that you install VirtualBox as soon as possible, the images (VMs) for the workshop are currently under construction -- check back on June 5<sup>th</sup>.)*
-{% endif %}
+{% if site.VMs_available %} **One or both of the VMs is ready  Check out the [Download page]({{ site.url }}/VirtualBox/Downloads.html).**
+{% else %} *The VM images are currently being uploaded -- this may take a few hours (posted 22:50 EDT).*{% endif %}
