@@ -78,8 +78,9 @@ if [ $download_success = 1 ]; then
         echo "I couldn't find either an unzip command or 7zip, but you can unpack the files yourself"
     fi
 fi
-if [ -e $file_final]; then
-    if ${`md5sum $file_final`:0:32} != $hash_final ]; then
+if [ -e $file_final ]; then
+    temp=`md5sum $file_final`
+    if [ ${temp:0:32} != $hash_final ]; then
         echo "The file didn't unpack correctly! Please delete $file_final and figure out what went wrong!"
     else
         if command -v VBoxManage >/dev/null 2>&1; then
