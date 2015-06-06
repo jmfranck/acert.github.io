@@ -17,8 +17,6 @@ To verify the download and help unpack the image you can save [this shell script
 
 See the [VirtualBox]({{ site.url }}/VirtualBox.html) page to complete the installation.
 
-*10:40am June 6<sup>th</sup> all files are uploaded and verified install script works on Windows with git bash and 7-zip installed, fixed shell script link above*
-
 ## Delay in Upload of Windows Image 
 
 Our upload bandwidth is ***much*** slower than we anticipated, so the Windows will be uploaded on the night of Saturday, June 6<sup>th</sup>.

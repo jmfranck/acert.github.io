@@ -18,14 +18,18 @@ read -p "please enter the zip password that you received via email:" password
 
 echo "I'm going to verify the checksums on the files that you downloaded into this directory, this will take a couple minutes..."
 
-if ! command -v md5sum >/dev/null 2>&1; then
-    echo "I can't find the md5sum command and I need it!"
+if command -v md5sum >/dev/null 2>&1; then
+    md5command="md5sum"
+elif command -v md5sum >/dev/null 2>&1; then
+    md5command="md5"
+else
+    echo "I can't find the md5sum or md5 command and I need it!"
     exit 1
 fi
 # do the following for each of the files
 if [ -e $file1 ]; then
-    temp=`md5sum $file1`
-    if [ ${temp:0:32} != $hash1 ]; then
+    temp=`$md5command $file1 | sed 's/\<\([0-9a-f]\{32\}\)\>/\1/'`
+    if [ $temp != $hash1 ]; then
         echo "$file1 didn't download properly"
         download_success=0
     fi
@@ -34,8 +38,8 @@ else
     download_success=0
 fi
 if [ -e $file2 ]; then
-    temp=`md5sum $file2`
-    if [ ${temp:0:32} != $hash2 ]; then
+    temp=`$md5command $file2 | sed 's/\<\([0-9a-f]\{32\}\)\>/\2/'`
+    if [ $temp != $hash2 ]; then
         echo "$file2 didn't download properly"
         download_success=0
     fi
@@ -44,8 +48,8 @@ else
     download_success=0
 fi
 if [ -e $file3 ]; then
-    temp=`md5sum $file3`
-    if [ ${temp:0:32} != $hash3 ]; then
+    temp=`$md5command $file3 | sed 's/\<\([0-9a-f]\{32\}\)\>/\3/'`
+    if [ $temp != $hash3 ]; then
         echo "$file3 didn't download properly"
         download_success=0
     fi
@@ -54,8 +58,8 @@ else
     download_success=0
 fi
 if [ -e $file4 ]; then
-    temp=`md5sum $file4`
-    if [ ${temp:0:32} != $hash4 ]; then
+    temp=`$md5command $file4 | sed 's/\<\([0-9a-f]\{32\}\)\>/\4/'`
+    if [ $temp != $hash4 ]; then
         echo "$file4 didn't download properly"
         download_success=0
     fi
@@ -79,16 +83,11 @@ if [ $download_success = 1 ]; then
     fi
 fi
 if [ -e $file_final ]; then
-    temp=`md5sum $file_final`
-    if [ ${temp:0:32} != $hash_final ]; then
+    temp=`$md5command $file_final | sed 's/\<\([0-9a-f]\{32\}\)\>/\4/'`
+    if [ $temp != $hash_final ]; then
         echo "The file didn't unpack correctly! Please delete $file_final and figure out what went wrong!"
     else
-        if command -v VBoxManage >/dev/null 2>&1; then
-            VBoxManage import $file_final
-            VBoxManage startvm thevmname
-        else
-            echo "I couldn't find VBoxManage, so you will have to import it manually"
-        fi
+        echo "Now double-click on the OVA file to import!"
     fi
 else
     echo "I misplaced the ova file! Put it in the current directory, please."
