@@ -1,12 +1,12 @@
 # started upload at 6:50pm
 
-$hash1 = "9a0941dc08fd8b692cd650e66ea59e26"
+$hash1 = "e48bc26a8717747be1327fa5ccdcfa30"
 $file1 = "CentOS_final.zip.001"
-$hash2 = "d69faa0250d19ddb2440a821a579b304"
+$hash2 = "c6906ad40272c6e4a6fa0d06a3d6f4d2"
 $file2 = "CentOS_final.zip.002"
-$hash3 = "32e07ba6e6aaddf9d2036c63875556fc"
+$hash3 = "e3969d997b73c28856f1644b542212f7"
 $file3 = "CentOS_final.zip.003"
-$hash4 = "434a43eb9c497f3739ebe1c7245d8ac5"
+$hash4 = "cafbb83a5032cc750c53adea266f915f"
 $file4 = "CentOS_final.zip.004"
 $hash_final = "b436e96942700b2420c057cb702d234f"
 $file_final = "CentOS_final.ova"
