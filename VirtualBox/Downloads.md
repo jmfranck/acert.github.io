@@ -12,7 +12,7 @@ attribution: J. Franck
 - The shell script was modified + broken this morning, but should now be fixed for Windows, and may or may not work for Mac.
     - 3PM: made some small updates to script, possibly fixed some issues.  If you have problems, first try to re-download.
     - If you get a syntax error, please run either `dos2unix unpack_linux_vm.sh` or `sed "s/\r//" -i unpack_linux_vm.sh` (this fixes a potential newline issue with the download).
-    - We have not yet had the opportunity to test on Mac or Linux -- if you get shell scripting errors, please send them to John, so we can try to fix them.  Do check the md5sums manually, as well (see below).
+    - We have not yet had the opportunity to test on Mac or Linux -- if you get shell scripting errors, please send them to John, so we can try to fix them.  However, you don't need the shell script to unpack the files.  You can unpack with your tool of choice and , anyways (see below).
 
 ## VM Image of Linux System
 

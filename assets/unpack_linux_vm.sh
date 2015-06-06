@@ -19,6 +19,12 @@ read -p "please enter the zip password that you received via email:" password
 
 echo "I'm going to verify the checksums on the files that you downloaded into this directory, this will take a couple minutes..."
 
+opencmd=""
+if command -v start >/dev/null 2>&1; then
+    opencmd="start"
+elif command -v open >/dev/null 2>&1; then
+    opencmd="open"
+fi
 if command -v md5sum >/dev/null 2>&1; then
     md5command="md5sum"
     trailcommand=""
@@ -101,7 +107,13 @@ if [ $download_success = 1 ]; then
         if [ $temp != $hash_final ]; then
             echo "The file didn't unpack correctly! Please delete $file_final and figure out what went wrong!"
         else
-            echo "Now double-click on the OVA file to import!"
+            if [ $opencmd = "" ]; then
+                echo "You are ready to double-check on the ova to import!!"
+            else
+                echo "You are ready to double-check on the ova to import!!\nI'm going to try to open it for you -- if this doesn't work, just open the .ova file (from within Virtual Box, or by double-clicking yourself."
+                $opencmd $file1_final
+            fi
+            echo "You are ready to double-check on the ova to import!!\nI'm going to try to open it for you -- if this doesn't work, just open the .ova file (from within Virtual Box, or by double-clicking yourself."
         fi
     else
         echo "I misplaced the ova file! Put it in the current directory, please."
