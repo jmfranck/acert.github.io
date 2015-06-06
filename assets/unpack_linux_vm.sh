@@ -104,8 +104,9 @@ if [ $download_success = 1 ]; then
     fi
     if [ -e $file_final ]; then
         temp=`$md5command $file1_final $trailcommand`
-        if [ $temp != $hash_final ]; then
+        if [ ${temp:0:32} != $hash_final ]; then
             echo "The file didn't unpack correctly! Please delete $file_final and figure out what went wrong!"
+            echo "bad hash ${temp:0:32}"
         else
             if [ $opencmd = "" ]; then
                 echo "You are ready to double-click on the ova to import!!"
