@@ -13,9 +13,11 @@ Don't click the file name or the large download icon at the top of the page.  Ra
 ![]({{ site.url }}/assets/box_info.png)  
 Do this for all the CentOS* files.
 
-To verify the download and help unpack the image you can save [this shell script]({{ site.url }}/assets/unpack_linux_vm.sh) in the same directory.  It should run in a Unix/Mac shell (feedback welcome), and will run on windows if you have git (open bash shell and type `bash unpack_linux_vm.sh`.)
+To verify the download and help unpack the image you can save [this shell script]({{ site.url }}/assets/unpack_linux_vm.sh) in the same directory.  It should run in a Unix/Mac shell (feedback welcome), and will run on windows if you have git (open bash shell and type `bash unpack_linux_vm.sh`; see [NLSL page]({{ site.url }}/Software/NLSL.html) for install instructions.)
 
 See the [VirtualBox]({{ site.url }}/VirtualBox.html) page to complete the installation.
+
+*10:40am June 6<sup>th</sup> all files are uploaded and verified install script works on Windows with git bash and 7-zip installed, fixed shell script link above*
 
 ## Delay in Upload of Windows Image 
 
