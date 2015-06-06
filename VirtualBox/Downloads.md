@@ -5,11 +5,11 @@ attribution: J. Franck
 ---
 # {{ page.title }}
 
-##Some notes as of 1:50 PM Saturday:
+##Some notes as of 2 PM Saturday:
 
 - The shell script was modified + broken this morning, but should now be fixed for Windows, and may or may not work for Mac.
     - (Mac notes:) We don't have a Mac to test it on, have modified based on some feedback, but it might still give very strange errors. If you have a Mac, you might just want to check md5 checksums manually.
-- *If you get the wrong md5 checksum for the first file in the series, do not try to re-download -- email the number to John.* (It seems like the upload might have went wrong, but box.com provides no way to validate checksums.)
+- ***The first upload in the series was broken -- please download the others while we re-upload the CentOS_final.zip.001 file***
 
 ## VM Image of Linux System
 
