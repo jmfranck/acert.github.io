@@ -29,15 +29,47 @@ else
 fi
 # do the following for each of the files
 if [ -e $file1 ]; then
-    temp=`$md5command $file1 | egrep "[0-9a-f]\{32\}" |sed 's/\<\([0-9a-f]\{32\}\)\>/\1/'`
+    temp=`$md5command $file1 | egrep "[0-9a-f]{32}" |sed 's/.*\<\([0-9a-fA-F]\{32\}\)\>.*/\1/'`
     echo "hash is $temp"
-    exit
     if [ $temp != $hash1 ]; then
         echo "$file1 didn't download properly"
         download_success=0
     fi
 else
     echo "I can't find $file1 in this directory"
+    download_success=0
+fi
+if [ -e $file2 ]; then
+    temp=`$md5command $file2 | egrep "[0-9a-f]{32}" |sed 's/.*\<\([0-9a-fA-F]\{32\}\)\>.*/\1/'`
+    echo "hash is $temp"
+    if [ $temp != $hash2 ]; then
+        echo "$file2 didn't download properly"
+        download_success=0
+    fi
+else
+    echo "I can't find $file2 in this directory"
+    download_success=0
+fi
+if [ -e $file3 ]; then
+    temp=`$md5command $file3 | egrep "[0-9a-f]{32}" |sed 's/.*\<\([0-9a-fA-F]\{32\}\)\>.*/\1/'`
+    echo "hash is $temp"
+    if [ $temp != $hash3 ]; then
+        echo "$file3 didn't download properly"
+        download_success=0
+    fi
+else
+    echo "I can't find $file3 in this directory"
+    download_success=0
+fi
+if [ -e $file4 ]; then
+    temp=`$md5command $file4 | egrep "[0-9a-f]{32}" |sed 's/.*\<\([0-9a-fA-F]\{32\}\)\>.*/\1/'`
+    echo "hash is $temp"
+    if [ $temp != $hash4 ]; then
+        echo "$file4 didn't download properly"
+        download_success=0
+    fi
+else
+    echo "I can't find $file4 in this directory"
     download_success=0
 fi
 
