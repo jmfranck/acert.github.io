@@ -98,7 +98,7 @@ if [ $download_success = 1 ]; then
     fi
 fi
 if [ -e $file_final ]; then
-    temp=`$md5command $file_final | egrep "[0-9a-f]{32}" |sed 's/.*\<\([0-9a-fA-F]\{32\}\)\>.*/\1/'`
+    temp=`$md5command $file1_final $trailcommand`
     if [ $temp != $hash_final ]; then
         echo "The file didn't unpack correctly! Please delete $file_final and figure out what went wrong!"
     else
