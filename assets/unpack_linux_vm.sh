@@ -14,6 +14,8 @@ file_final="CentOS_final.ova"
 download_success=1
 export PATH=$PATH:/c/Program\ Files/Oracle/VirtualBox:/c/Program\ Files/7-Zip
 
+read -p "please enter the zip password that you received via email:" password
+
 if ! command -v md5sum >/dev/null 2>&1; then
     echo "I can't find the md5sum command and I need it!"
     exit 1
@@ -62,14 +64,14 @@ fi
 
 if [ $download_success = 1 ]; then
     echo "the download was successful, now it's time to unzip"
-    if command -v unzip >/dev/null 2>&1; then
+    if [ command -v unzip >/dev/null 2>&1 && command -v unzip >/dev/null 2>&1 ]; then
         cat $file1 $file2 $file3 $file4 > combined_archive.zip
         zip -FF combined_archive.zip --out combined_archive_fixed.zip
         rm combined_archive.zip
-        unzip combined_archive_fixed.zip -d .
+        unzip -P $password combined_archive_fixed.zip -d .
         allfiles="$file1 $file2 $file3 $file4  combined_archive_fixed.zip"
     elif command -v 7z >/dev/null 2>&1; then
-        7z x $file1 -o.
+        7z x $file1 -o. -P$password
     else
         echo "I couldn't find either an unzip command or 7zip, but you can unpack the files yourself"
     fi
