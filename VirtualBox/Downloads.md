@@ -13,10 +13,10 @@ Don't click the file name or the large download icon at the top of the page.  Ra
 ![]({{ site.url }}/assets/box_info.png)  
 Do this for all the CentOS* files.
 
-To verify the download and help unpack the image you can save [this shell script]({{ site.url }}/assets/unpack_linux_vm.sh) in the same directory.  It will run on windows if you have git (open bash shell and type `bash unpack_linux_vm.sh`; see [NLSL page]({{ site.url }}/Software/NLSL.html) for install instructions), and should run on Mac or Linux (feeback welcome).  If the script doesn't work for you, you can check the md5 sums manually:
+To verify the download and help unpack the image you can save [this shell script]({{ site.url }}/assets/unpack_linux_vm.sh) in the same directory.  It will run on windows if you have git (open bash shell and type `bash unpack_linux_vm.sh`; see [NLSL page]({{ site.url }}/Software/NLSL.html) for install instructions), and should run on Mac or Linux (feeback welcome).  If the script doesn't work for you, you can check the md5 sums [manually](http://www.droidviews.com/check-md5sum-of-a-file-on-windows-mac-and-linux/){:target="_blank"}:
 
-file name  | md5
-----------:|:-----------
+ file name  | md5
+:----------:|:-----------:
 CentOS_final.zip.001" | e48bc26a8717747be1327fa5ccdcfa30
 CentOS_final.zip.002 | c6906ad40272c6e4a6fa0d06a3d6f4d2
 CentOS_final.zip.003 | e3969d997b73c28856f1644b542212f7

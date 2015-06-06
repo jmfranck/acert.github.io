@@ -73,27 +73,27 @@ else
     download_success=0
 fi
 
-#if [ $download_success = 1 ]; then
-#    echo "the download was successful, now it's time to unzip"
-#    if [ command -v unzip >/dev/null 2>&1 && command -v unzip >/dev/null 2>&1 ]; then
-#        cat $file1 $file2 $file3 $file4 > combined_archive.zip
-#        zip -FF combined_archive.zip --out combined_archive_fixed.zip
-#        rm combined_archive.zip
-#        unzip -P $password combined_archive_fixed.zip -d .
-#        allfiles="$file1 $file2 $file3 $file4  combined_archive_fixed.zip"
-#    elif command -v 7z >/dev/null 2>&1; then
-#        7z x $file1 -o. -P$password
-#    else
-#        echo "I couldn't find either a unzip/zip pair of commands or 7zip, but you can unpack the files yourself"
-#    fi
-#fi
-#if [ -e $file_final ]; then
-#    temp=`$md5command $file_final | sed 's/\<\([0-9a-f]\{32\}\)\>/\4/'`
-#    if [ $temp != $hash_final ]; then
-#        echo "The file didn't unpack correctly! Please delete $file_final and figure out what went wrong!"
-#    else
-#        echo "Now double-click on the OVA file to import!"
-#    fi
-#else
-#    echo "I misplaced the ova file! Put it in the current directory, please."
-#fi
+if [ $download_success = 1 ]; then
+    echo "the download was successful, now it's time to unzip"
+    if [ command -v unzip >/dev/null 2>&1 && command -v unzip >/dev/null 2>&1 ]; then
+        cat $file1 $file2 $file3 $file4 > combined_archive.zip
+        zip -FF combined_archive.zip --out combined_archive_fixed.zip
+        rm combined_archive.zip
+        unzip -P $password combined_archive_fixed.zip -d .
+        allfiles="$file1 $file2 $file3 $file4  combined_archive_fixed.zip"
+    elif command -v 7z >/dev/null 2>&1; then
+        7z x $file1 -o. -P$password
+    else
+        echo "I couldn't find either a unzip/zip pair of commands or 7zip, but you can unpack the files yourself"
+    fi
+fi
+if [ -e $file_final ]; then
+    temp=`$md5command $file_final | egrep "[0-9a-f]{32}" |sed 's/.*\<\([0-9a-fA-F]\{32\}\)\>.*/\1/'`
+    if [ $temp != $hash_final ]; then
+        echo "The file didn't unpack correctly! Please delete $file_final and figure out what went wrong!"
+    else
+        echo "Now double-click on the OVA file to import!"
+    fi
+else
+    echo "I misplaced the ova file! Put it in the current directory, please."
+fi
