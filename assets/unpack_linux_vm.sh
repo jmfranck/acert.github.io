@@ -30,6 +30,8 @@ fi
 # do the following for each of the files
 if [ -e $file1 ]; then
     temp=`$md5command $file1 | sed 's/\<\([0-9a-f]\{32\}\)\>/\1/'`
+    echo "hash is $temp"
+    exit
     if [ $temp != $hash1 ]; then
         echo "$file1 didn't download properly"
         download_success=0
@@ -41,7 +43,7 @@ fi
 if [ -e $file2 ]; then
     temp=`$md5command $file2 | sed 's/\<\([0-9a-f]\{32\}\)\>/\2/'`
     if [ $temp != $hash2 ]; then
-        echo "$file2 didn't download properly"
+        echo `$file2 didn't download properly`
         download_success=0
     fi
 else
@@ -83,13 +85,13 @@ if [ $download_success = 1 ]; then
         echo "I couldn't find either a unzip/zip pair of commands or 7zip, but you can unpack the files yourself"
     fi
 fi
-if [ -e $file_final ]; then
-    temp=`$md5command $file_final | sed 's/\<\([0-9a-f]\{32\}\)\>/\4/'`
-    if [ $temp != $hash_final ]; then
-        echo "The file didn't unpack correctly! Please delete $file_final and figure out what went wrong!"
-    else
-        echo "Now double-click on the OVA file to import!"
-    fi
-else
-    echo "I misplaced the ova file! Put it in the current directory, please."
-fi
+#if [ -e $file_final ]; then
+#    temp=`$md5command $file_final | sed 's/\<\([0-9a-f]\{32\}\)\>/\4/'`
+#    if [ $temp != $hash_final ]; then
+#        echo "The file didn't unpack correctly! Please delete $file_final and figure out what went wrong!"
+#    else
+#        echo "Now double-click on the OVA file to import!"
+#    fi
+#else
+#    echo "I misplaced the ova file! Put it in the current directory, please."
+#fi
