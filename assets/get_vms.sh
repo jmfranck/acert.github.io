@@ -30,15 +30,7 @@ if [ -e $file1 ]; then
         $download_success = 0
     fi
 else
-    curl -O "https://cornell.box.com/s/o47ptx9wr21ui15zbugjizjanz24jk6c/$file1"
-    if [ -e $file1 ]; then
-        if [ `md5sum $file1` != $hash1 ]; then
-            echo "$file1 didn't download properly"
-            $download_success = 0
-        fi
-    else
-        echo "I can't download $file1 for some reason"
-    fi
+    echo "I can't find $file1 in this directory"
 fi
 
 if [ $download_success = 1 ]; then
