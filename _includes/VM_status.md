@@ -1,2 +1,2 @@
 {% if site.VMs_available %} **One or both of the VMs is ready  Check out the [Download page]({{ site.url }}/VirtualBox/Downloads.html).**
-{% else %} *The Linux VM image has been uploaded → see the [download page]({{ site.url }}/VirtualBox/Downloads.html) to start download of the first of the four zip files*{% endif %}
+{% else %} *The Linux VM image has been uploaded → see the [download page]({{ site.url }}/VirtualBox/Downloads.html) to start download of the zip files*{% endif %}
