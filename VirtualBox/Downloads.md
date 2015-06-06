@@ -8,11 +8,11 @@ attribution: J. Franck
 ##Some notes as of 3 PM Saturday:
 (If it's your first visit, see below first.  This section answers questions and gives updates for people who are having any issues with the download.)
 
+- ***The first upload in the series was broken until 2:50PM on Saturday, when we uploaded a new version of CentOS_final.zip.001*** (Now testing to verify successful download → should be done at about 5pm.)
 - The shell script was modified + broken this morning, but should now be fixed for Windows, and may or may not work for Mac.
     - 3PM: made some small updates to script, possibly fixed some issues.  If you have problems, first try to re-download.
     - If you get a syntax error, please run either `dos2unix unpack_linux_vm.sh` or `sed "s/\r//" -i unpack_linux_vm.sh` (this fixes a potential newline issue with the download).
     - We have not yet had the opportunity to test on Mac or Linux -- if you get shell scripting errors, please send them to John, so we can try to fix them.  Do check the md5sums manually, as well (see below).
-- ***The first upload in the series was broken -- we uploaded a new version of CentOS_final.zip.001, but have not yet verified that it downloads properly***
 
 ## VM Image of Linux System
 
