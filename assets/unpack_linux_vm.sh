@@ -96,14 +96,16 @@ if [ $download_success = 1 ]; then
     else
         echo "I couldn't find either a unzip/zip pair of commands or 7zip, but you can unpack the files yourself"
     fi
-fi
-if [ -e $file_final ]; then
-    temp=`$md5command $file1_final $trailcommand`
-    if [ $temp != $hash_final ]; then
-        echo "The file didn't unpack correctly! Please delete $file_final and figure out what went wrong!"
+    if [ -e $file_final ]; then
+        temp=`$md5command $file1_final $trailcommand`
+        if [ $temp != $hash_final ]; then
+            echo "The file didn't unpack correctly! Please delete $file_final and figure out what went wrong!"
+        else
+            echo "Now double-click on the OVA file to import!"
+        fi
     else
-        echo "Now double-click on the OVA file to import!"
+        echo "I misplaced the ova file! Put it in the current directory, please."
     fi
 else
-    echo "I misplaced the ova file! Put it in the current directory, please."
+    echo "the download was not a success -- please fix the issues noted above and then re-run"
 fi
