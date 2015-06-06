@@ -29,7 +29,7 @@ else
 fi
 # do the following for each of the files
 if [ -e $file1 ]; then
-    temp=`$md5command $file1 | sed 's/\<\([0-9a-f]\{32\}\)\>/\1/'`
+    temp=`$md5command $file1 | egrep "[0-9a-f]\{32\}" |sed 's/\<\([0-9a-f]\{32\}\)\>/\1/'`
     echo "hash is $temp"
     exit
     if [ $temp != $hash1 ]; then
@@ -40,51 +40,21 @@ else
     echo "I can't find $file1 in this directory"
     download_success=0
 fi
-if [ -e $file2 ]; then
-    temp=`$md5command $file2 | sed 's/\<\([0-9a-f]\{32\}\)\>/\2/'`
-    if [ $temp != $hash2 ]; then
-        echo `$file2 didn't download properly`
-        download_success=0
-    fi
-else
-    echo "I can't find $file2 in this directory"
-    download_success=0
-fi
-if [ -e $file3 ]; then
-    temp=`$md5command $file3 | sed 's/\<\([0-9a-f]\{32\}\)\>/\3/'`
-    if [ $temp != $hash3 ]; then
-        echo "$file3 didn't download properly"
-        download_success=0
-    fi
-else
-    echo "I can't find $file3 in this directory"
-    download_success=0
-fi
-if [ -e $file4 ]; then
-    temp=`$md5command $file4 | sed 's/\<\([0-9a-f]\{32\}\)\>/\4/'`
-    if [ $temp != $hash4 ]; then
-        echo "$file4 didn't download properly"
-        download_success=0
-    fi
-else
-    echo "I can't find $file4 in this directory"
-    download_success=0
-fi
 
-if [ $download_success = 1 ]; then
-    echo "the download was successful, now it's time to unzip"
-    if [ command -v unzip >/dev/null 2>&1 && command -v unzip >/dev/null 2>&1 ]; then
-        cat $file1 $file2 $file3 $file4 > combined_archive.zip
-        zip -FF combined_archive.zip --out combined_archive_fixed.zip
-        rm combined_archive.zip
-        unzip -P $password combined_archive_fixed.zip -d .
-        allfiles="$file1 $file2 $file3 $file4  combined_archive_fixed.zip"
-    elif command -v 7z >/dev/null 2>&1; then
-        7z x $file1 -o. -P$password
-    else
-        echo "I couldn't find either a unzip/zip pair of commands or 7zip, but you can unpack the files yourself"
-    fi
-fi
+#if [ $download_success = 1 ]; then
+#    echo "the download was successful, now it's time to unzip"
+#    if [ command -v unzip >/dev/null 2>&1 && command -v unzip >/dev/null 2>&1 ]; then
+#        cat $file1 $file2 $file3 $file4 > combined_archive.zip
+#        zip -FF combined_archive.zip --out combined_archive_fixed.zip
+#        rm combined_archive.zip
+#        unzip -P $password combined_archive_fixed.zip -d .
+#        allfiles="$file1 $file2 $file3 $file4  combined_archive_fixed.zip"
+#    elif command -v 7z >/dev/null 2>&1; then
+#        7z x $file1 -o. -P$password
+#    else
+#        echo "I couldn't find either a unzip/zip pair of commands or 7zip, but you can unpack the files yourself"
+#    fi
+#fi
 #if [ -e $file_final ]; then
 #    temp=`$md5command $file_final | sed 's/\<\([0-9a-f]\{32\}\)\>/\4/'`
 #    if [ $temp != $hash_final ]; then
