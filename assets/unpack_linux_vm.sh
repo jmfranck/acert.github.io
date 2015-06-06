@@ -21,7 +21,7 @@ fi
 # do the following for each of the files
 if [ -e $file1 ]; then
     temp=`md5sum $file1`
-    if [ ${temp:0:32} = $hash1 ]; then
+    if [ ${temp:0:32} != $hash1 ]; then
         echo "$file1 didn't download properly"
         download_success=0
     fi
