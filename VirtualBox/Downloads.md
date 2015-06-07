@@ -64,6 +64,6 @@ We now plan to upload the Windows VM after most people have successfully install
 - The most recent version of the shell script was uploaded on 4:40pm on Saturday -- get this version if you are having any trouble, then:
     - If you get a syntax error, please run either `dos2unix unpack_linux_vm.sh` or, if you don't have dos2unix, `sed "s/\r//" -i unpack_linux_vm.sh` (this fixes a potential newline issue with the download).
     - On Mac, the script *should* work if you have a command-line tool for checking the md5 checksum and you have *both* the `zip` and `unzip` command-line tools.  Unfortunately, this seems not to be the case for most people, so we have not had a successful test of the script yet.
-        - If you get shell scripting errors (after the fix above), please send them to John, so we can try to fix them.
+        - If you get shell scripting errors (after the fix above), please do send them to John, so we can fix them.
         - However, you don't need the shell script to unpack the files.  You can unpack with your tool of choice and (see notes above).
 
