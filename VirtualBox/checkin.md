@@ -17,17 +17,20 @@ attribution: J. Franck
 When possible, have you installed the [software]({{ site.url }}/Software_Packages.html) directly on your desktop?
 
 - If you have **Windows**, have you installed:
-    - XX
-    - XX
-    - XX
+    - The EPR Labview Programs
+    - The development version of NLSL
     - If you have Matlab, have you installed:
-        - XX
+        - EasySpin
+        - Spinach
+        - SPIDYAN
+        - MMM
 - If you have **Linux/Mac**, have you installed:
-    - XX
-    - XX
-    - XX
+    - The development version of NLSL
     - If you have Matlab, have you installed:
-        - XX
+        - EasySpin
+        - Spinach
+        - SPIDYAN
+        - MMM
 
 ### For Presenters
 
