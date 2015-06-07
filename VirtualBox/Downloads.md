@@ -43,9 +43,11 @@ If you have any issues with unpacking or installing, please check the md5 sum fi
 ### Special notes for the Mac
 <a name="Macnotes" style="padding-top: 120px;"></a>
 
-The multi-part zip can be tricky, and to run the script, you would need an `md5` or `md5sum` command as well as both an `unzip` and `zip` command.
-
+On Mac, the script *should* work if you have a command-line tool for checking the md5 checksum (`md5` or `md5sum`) and you have *both* the `zip` and `unzip` command-line tools.
+Unfortunately, it appears that many people do not have these tools installed.
 Feed-back is welcome, since we do not have a Mac but would like to get the script running on a Mac.
+
+There are other ways to unpack the files.
 So far, people have had success with:
 
 - `cat CentOS_final.zip.0* > CentOS_final_combined.zip`, followed by running the TheUnarchiver on the result.
@@ -63,7 +65,7 @@ We now plan to upload the Windows VM after most people have successfully install
 - ***The first upload in the series was broken until 2:50PM on Saturday, when we uploaded a new version of CentOS_final.zip.001*** A couple people have now confirmed that they can download and unpack everything correctly → thanks to them for helping work out the initial kinks!
 - The most recent version of the shell script was uploaded on 4:40pm on Saturday -- get this version if you are having any trouble, then:
     - If you get a syntax error, please run either `dos2unix unpack_linux_vm.sh` or, if you don't have dos2unix, `sed "s/\r//" -i unpack_linux_vm.sh` (this fixes a potential newline issue with the download).
-    - On Mac, the script *should* work if you have a command-line tool for checking the md5 checksum and you have *both* the `zip` and `unzip` command-line tools.  Unfortunately, this seems not to be the case for most people, so we have not had a successful test of the script yet.
+    - For running the script on Mac:
         - If you get shell scripting errors (after the fix above), please do send them to John, so we can fix them.
         - However, you don't need the shell script to unpack the files.  You can unpack with your tool of choice and (see notes above).
 
