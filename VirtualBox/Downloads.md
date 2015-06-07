@@ -39,6 +39,6 @@ See the [VirtualBox]({{ site.url }}/VirtualBox.html) page to complete the instal
 
 ## Delay in Upload of Windows Image 
 
-Our upload bandwidth is ***much*** slower than we anticipated, so the Windows will be uploaded on the night of Saturday, June 6<sup>th</sup>.
+Our upload bandwidth is ***much*** slower than we anticipated, so the Windows will be uploaded on Sunday, June 7<sup>th</sup>.
 
 Please try out the Linux image as soon as you can so there is still time to report back with problems!
