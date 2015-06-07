@@ -5,15 +5,6 @@ attribution: J. Franck
 ---
 # {{ page.title }}
 
-##Some notes as of 4:30 PM Saturday:
-(If it's your first visit, see below first.  This section answers questions and gives updates for people who are having any issues with the download.)
-
-- ***The first upload in the series was broken until 2:50PM on Saturday, when we uploaded a new version of CentOS_final.zip.001*** A couple people have now confirmed that they can download and unpack everything correctly → thanks to them for helping work out the initial kinks!
-- The shell script was modified + broken this morning, but should now be fixed for Windows, and may or may not work for Mac.
-    - 4:20PM: made some small updates to script, possibly fixed some issues.  If you have problems, first try to re-download.
-    - If you get a syntax error, please run either `dos2unix unpack_linux_vm.sh` or, if you don't have dos2unix, `sed "s/\r//" -i unpack_linux_vm.sh` (this fixes a potential newline issue with the download).
-    - We have not yet had the opportunity to test on Mac or Linux -- if you get shell scripting errors (after the fix above), please send them to John, so we can try to fix them.  However, you don't need the shell script to unpack the files.  You can unpack with your tool of choice and, anyways (see below).
-
 ## VM Image of Linux System
 
 Now ready for download!  We have uploaded the image files onto [Cornell Box (click here to download)](https://cornell.box.com/s/o47ptx9wr21ui15zbugjizjanz24jk6c){:target="_blank"} as a multipart zip image.
@@ -27,7 +18,7 @@ But, keep in mind that you can just unpack the multi-part zip any way you like.
 It was packed, and will unpack trivially with 7-zip on windows.
 For Mac, people have given valuable feedback.
 
-**If you run into any trouble unpacking,** the first thing you need to do are to check the md5 hashes at every step the script does this automatically for you, but more details are given next.
+**If you run into any trouble unpacking,** the first thing you need to do is to check the md5 hashes at every step the script does this automatically for you, but more details are given next.
 
 Once you have unpacked, 
 see the [VirtualBox]({{ site.url }}/VirtualBox.html) page to complete the installation.
@@ -65,3 +56,13 @@ So far, people have had success with:
 Our upload bandwidth is ***much*** slower than we anticipated, so the Windows will be uploaded on Sunday, June 7<sup>th</sup>.
 
 Please try out the Linux image as soon as you can so there is still time to report back with problems!
+
+##Some notes as of 4:30 PM Saturday:
+(If it's your first visit, see below first.  This section answers questions and gives updates for people who are having any issues with the download.)
+
+- ***The first upload in the series was broken until 2:50PM on Saturday, when we uploaded a new version of CentOS_final.zip.001*** A couple people have now confirmed that they can download and unpack everything correctly → thanks to them for helping work out the initial kinks!
+- The shell script was modified + broken this morning, but should now be fixed for Windows, and may or may not work for Mac.
+    - 4:20PM: made some small updates to script, possibly fixed some issues.  If you have problems, first try to re-download.
+    - If you get a syntax error, please run either `dos2unix unpack_linux_vm.sh` or, if you don't have dos2unix, `sed "s/\r//" -i unpack_linux_vm.sh` (this fixes a potential newline issue with the download).
+    - We have not yet had the opportunity to test on Mac or Linux -- if you get shell scripting errors (after the fix above), please send them to John, so we can try to fix them.  However, you don't need the shell script to unpack the files.  You can unpack with your tool of choice and, anyways (see below).
+
