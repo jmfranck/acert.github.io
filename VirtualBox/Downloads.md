@@ -41,7 +41,7 @@ The final file above is the unpacked result.
 If you have any issues with unpacking or installing, please check the md5 sum first!
 
 ### Special notes for the Mac
-<a name="Macnotes"></a>
+<a name="Macnotes" style="padding-top: 100px;"></a>
 
 The multi-part zip can be tricky, and to run the script, you would need an `md5` or `md5sum` command as well as both an `unzip` and `zip` command.
 
