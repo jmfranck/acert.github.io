@@ -13,7 +13,7 @@ Don't click the file name or the large download icon at the top of the page.  Ra
 ![]({{ site.url }}/assets/box_info.png)  
 Do this for all the CentOS* files.
 
-The files were packed, and will unpack trivially with 7-zip on windows.
+The files were packed, and will unpack trivially with [7-zip](http://www.7-zip.org/){:target="_blank"} on windows.
 For Mac, people have given valuable feedback ([see section below](#Macnotes)).
 For Windows, if you have git (one of the dependencies for the [desktop NLSL install]({{ site.url }}/Software/NLSL.html)), it's worth it to give the shell script, described next, a quick try; we would expect it to work on most Linux systems, as well.
 
