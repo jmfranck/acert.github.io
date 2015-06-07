@@ -60,7 +60,7 @@ Our upload bandwidth is ***much*** slower than we anticipated, so the Windows wi
 Please try out the Linux image as soon as you can so there is still time to report back with problems!
 
 ##Some notes as of 4:30 PM Saturday:
-(If it's your first visit, see below first.  This section answers questions and gives updates for people who are having any issues with the download.)
+(This section answers questions and gives updates for people who are having any issues with the download.)
 
 - ***The first upload in the series was broken until 2:50PM on Saturday, when we uploaded a new version of CentOS_final.zip.001*** A couple people have now confirmed that they can download and unpack everything correctly → thanks to them for helping work out the initial kinks!
 - The shell script was modified + broken this morning, but should now be fixed for Windows, and may or may not work for Mac.
