@@ -13,17 +13,16 @@ Don't click the file name or the large download icon at the top of the page.  Ra
 ![]({{ site.url }}/assets/box_info.png)  
 Do this for all the CentOS* files.
 
-We would recommend *briefly* trying the shell script (next), which will verify that the download and unpacking goes correctly.
-But, keep in mind that you can just unpack the multi-part zip any way you like.
-
 The files were packed, and will unpack trivially with 7-zip on windows.
-For Mac, people have given valuable feedback (see below).
-**If you run into any trouble unpacking,** the first thing you need to do is to check the md5 hashes at every step; you can do this either manually, or with the script that we provide (described next).
+For Mac, people have given valuable feedback ([see section below](#Macnotes)).
+For Windows, if you have git (one of the dependencies for the [desktop NLSL install]({{ site.url }}/Software/NLSL.html)), it's worth it to give the shell script, described next, a quick try; we would expect it to work on most Linux systems, as well.
+
+**If you run into any trouble unpacking,** the first thing you need to do is to check the md5 checksums at every step; you can do this either manually, or with the script that we provide (described next).
 
 Once you have unpacked, 
 see the [VirtualBox]({{ site.url }}/VirtualBox.html) page to complete the installation.
 
-### Automated script and checking the hashes
+### Automated script and checking the checksums
 
 To verify the download and help unpack the image you can save [this shell script]({{ site.url }}/assets/unpack_linux_vm.sh) in the same directory.  It will run on windows if you have git (open bash shell and type `bash unpack_linux_vm.sh`; see [NLSL page]({{ site.url }}/Software/NLSL.html) for install instructions), and should run on Mac or Linux (feedback welcome); it does require the command `md5` *or* `md5sum` as well as either `7z` (the 7-zip command line) or `zip` *and* `unzip`.
 
@@ -32,7 +31,7 @@ If the script doesn't work for you, you can check the md5 sums [manually](http:/
 
  file name  | md5
 :----------:|:-----------:
-CentOS_final.zip.001" | e48bc26a8717747be1327fa5ccdcfa30
+CentOS_final.zip.001 | e48bc26a8717747be1327fa5ccdcfa30
 CentOS_final.zip.002 | c6906ad40272c6e4a6fa0d06a3d6f4d2
 CentOS_final.zip.003 | e3969d997b73c28856f1644b542212f7
 CentOS_final.zip.004 | cafbb83a5032cc750c53adea266f915f
@@ -42,8 +41,11 @@ The final file above is the unpacked result.
 If you have any issues with unpacking or installing, please check the md5 sum first!
 
 ### Special notes for the Mac
+<a name="Macnotes"></a>
 
-The multi-part zip can be tricky, and to run the script, you would need an `md5` or `md5sum` command as well as both an `unzip` and `zip` command.  Feed-back is welcome, since we do not have a Mac but would like to get the script running on a Mac.
+The multi-part zip can be tricky, and to run the script, you would need an `md5` or `md5sum` command as well as both an `unzip` and `zip` command.
+
+Feed-back is welcome, since we do not have a Mac but would like to get the script running on a Mac.
 So far, people have had success with:
 
 - `cat CentOS_final.zip.0* > CentOS_final_combined.zip`, followed by running the TheUnarchiver on the result.
@@ -53,7 +55,7 @@ So far, people have had success with:
 
 ## Delay in Upload of Windows Image 
 
-Our upload bandwidth is ***much*** slower than we anticipated, so the Windows will be uploaded on Sunday, June 7<sup>th</sup>.
+Our upload bandwidth is ***much*** slower than we anticipated, so the Windows will be uploaded later on Sunday, June 7<sup>th</sup>.
 
 Please try out the Linux image as soon as you can so there is still time to report back with problems!
 
