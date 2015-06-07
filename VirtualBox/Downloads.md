@@ -13,12 +13,12 @@ Don't click the file name or the large download icon at the top of the page.  Ra
 ![]({{ site.url }}/assets/box_info.png)  
 Do this for all the CentOS* files.
 
-We would recommend *briefly* trying the shell script (next), which will verify that the downloaded and unpacking goes correctly.
+We would recommend *briefly* trying the shell script (next), which will verify that the download and unpacking goes correctly.
 But, keep in mind that you can just unpack the multi-part zip any way you like.
-It was packed, and will unpack trivially with 7-zip on windows.
-For Mac, people have given valuable feedback.
 
-**If you run into any trouble unpacking,** the first thing you need to do is to check the md5 hashes at every step the script does this automatically for you, but more details are given next.
+The files were packed, and will unpack trivially with 7-zip on windows.
+For Mac, people have given valuable feedback (see below).
+**If you run into any trouble unpacking,** the first thing you need to do is to check the md5 hashes at every step; you can do this either manually, or with the script that we provide (described next).
 
 Once you have unpacked, 
 see the [VirtualBox]({{ site.url }}/VirtualBox.html) page to complete the installation.
