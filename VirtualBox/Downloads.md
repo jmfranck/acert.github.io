@@ -24,10 +24,10 @@ see the [VirtualBox]({{ site.url }}/VirtualBox.html) page to complete the instal
 
 ### Automated script and checking the checksums
 
-To verify the download and help unpack the image you can save [this shell script]({{ site.url }}/assets/unpack_linux_vm.sh) in the same directory.  It will run on windows if you have git (open bash shell and type `bash unpack_linux_vm.sh`; see [NLSL page]({{ site.url }}/Software/NLSL.html) for install instructions), and should run on Mac or Linux (feedback welcome); it does require the command `md5` *or* `md5sum` as well as either `7z` (the 7-zip command line) or `zip` *and* `unzip`.
+To verify the download and help unpack the image you can save [this shell script]({{ site.url }}/assets/unpack_linux_vm.sh) in the same directory.  It will run on windows if you have git (open bash shell and type `bash unpack_linux_vm.sh`; see [NLSL page]({{ site.url }}/Software/NLSL.html) for git install instructions), and should run on Mac or Linux (feedback welcome); it does require the command `md5` *or* `md5sum` as well as either `7z` (the 7-zip command line) or `zip` *and* `unzip`.
 
 Please keep in mind that the script is intended to be helpful, but not absolutely required, so if it gives you trouble, don't worry too much about it!
-If the script doesn't work for you, you can check the md5 sums [manually](http://www.droidviews.com/check-md5sum-of-a-file-on-windows-mac-and-linux/){:target="_blank"}:
+If the script doesn't work for you, you can check the md5 sums [manually (this is a link for further info).](http://www.droidviews.com/check-md5sum-of-a-file-on-windows-mac-and-linux/){:target="_blank"}:
 
  file name  | md5
 :----------:|:-----------:
