@@ -55,9 +55,7 @@ So far, people have had success with:
 
 ## Delay in Upload of Windows Image 
 
-Our upload bandwidth is ***much*** slower than we anticipated, so the Windows will be uploaded later on Sunday, June 7<sup>th</sup>.
-
-Please try out the Linux image as soon as you can so there is still time to report back with problems!
+We now plan to upload the Windows VM after most people have successfully installed the Linux VM, and we have worked out all the download- and install-related issues: likely on the evening of Sunday, June 7<sup>th</sup>.  Please try out the Linux image as soon as possible!
 
 ##Some notes as of 4:30 PM Saturday:
 (This section answers questions and gives updates for people who are having any issues with the download.)
