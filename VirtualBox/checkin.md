@@ -9,8 +9,8 @@ attribution: J. Franck
 
 - Did you bring a laptop with [VirtualBox]({{ site.url }}/VirtualBox.html) installed?
 - Did you download and unpack both VMs?
-- Were you able to open Matlab in the Windows VM?
-- Were you able to open Matlab in the CentOS Linux VM?
+    - Were you able to open Matlab in the Windows VM?
+    - Were you able to open Matlab in the CentOS Linux VM?
 
 ### Optional, but highly recommended
 
@@ -34,5 +34,5 @@ When possible, have you installed the [software]({{ site.url }}/Software_Package
 
 ### For Presenters
 
-Have you tested your software presentation on the projector in PSB 120 (see XXX)
+Have you tested your software presentation on the projector in PSB 120 (please see Art for more info).
 
