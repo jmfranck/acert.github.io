@@ -14,9 +14,10 @@ be supplying.
 This VM is a bundle consisting of a complete operating system with all conference software pre-installed.
 {%include VM_status.md%} 
 
-If you get in trouble, we will likely be offering an on-site solutions, but we will only be able to accommodate a very limited number of people this way, and it will likely cost a surcharge.
+We expect that everyone will come to the workshop with both VMs fully functional on their laptop, so please let us know ASAP if you experience any trouble.
+(If you get in trouble, we will likely be offering an on-site solutions, but we will only be able to accommodate a very limited number of people this way, and it will likely cost a surcharge.)
 
-However, VirtualBox provides a temporary and low-performance solution. 
+VirtualBox provides a temporary and low-performance solution. 
 We **strongly encourage** attendees to **additionally** install the software on their laptops or a server that they can remotely connect to, as detailed in the instructions below.
 This will allow you to continue to use the software after the workshop is over.
 
