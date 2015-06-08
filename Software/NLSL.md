@@ -17,7 +17,7 @@ For the specific examples we will present, we will use both code development too
     - Mac: Part of XCode
     - Linux: part of most distributions
 - *python*
-    - Windows: We highly recommend [pythonxy](https://code.google.com/p/pythonxy/wiki/Downloads), which comes with many useful packages installed.  (One caveat: if you already have a python distribution, we do not recommend installing another -- see the note below.) During install:
+    - Windows: If you have not previously used Python, we highly recommend [pythonxy](https://code.google.com/p/pythonxy/wiki/Downloads), which comes with many useful packages installed.  (One caveat: if you already have a python distribution, we do not recommend installing another -- see the note below.) During install:
         - save the file, right click, and run as administrator
         - Under "Choose Components," open "Python", and select (though not in alphabetical order, you can type to find the appropriate package):
             - SymPy
