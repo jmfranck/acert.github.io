@@ -5,6 +5,9 @@ attribution: J. Franck
 ---
 # {{ page.title }}
 
+Regardless of the OS that your laptop is running,
+you should download a total of 8 multi-part zip files below, and you will unpack and install 2 VM images (one that runs Windows, one that runs Linux).
+
 ## VM Image of Linux System
 
 Now ready for download!  We have uploaded the image files onto [Cornell Box (click here to download)](https://cornell.box.com/s/o47ptx9wr21ui15zbugjizjanz24jk6c){:target="_blank"} as a multipart zip image.
