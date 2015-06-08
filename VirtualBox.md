@@ -44,7 +44,8 @@ We *strongly* recommend that you complete this procedure before attending the co
     * If you get an error about having a 32bit processor, you likely need to enable virtualization in your computer's BIOS
         * typically press `<F2>` during bootup to access settings; virtualization might be under a menu setting such as "CPU" or "performance"
         * if this is set up and you are running windows, make sure that hyper-v or xp mode are not enabled on the host.
-1. Log on as the ACERT User with password `acertrules`.
+1. Some notes:
+    * Both VMs should automatically log you on, but if you need to know the ACERT User account password, it is `acertrules`.
     * If you changed the memory settings as noted above, you may be asked to "Restart Your Machine" (i.e. the VM).  Do this.
     * Select `<Right Cntrl>-c` to switch to "scaled mode,"
         or `<Right Cntrl>-f` for "full-screen mode."
