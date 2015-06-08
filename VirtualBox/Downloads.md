@@ -58,13 +58,13 @@ So far, people have had success with:
 ## Windows Image Currently Uploading.
 
 The Windows VM image is uploading, and may be complete by the time you see this!
+The 4 multi-part zip files are in the same directory on [Cornell Box (click here to download)](https://cornell.box.com/s/o47ptx9wr21ui15zbugjizjanz24jk6c){:target="_blank"} as a multipart zip image.
 
-This is again a 4 part zip file.
 If you choose to use it, there is a different
 [shell script]({{ site.url }}/assets/unpack_windows_vm.sh)
 for verifying the checksums.
 
-Here are the md5 checksums:
+Here are the md5 checksums, for manual verification:
 
  file name  | md5
 :----------:|:-----------:
