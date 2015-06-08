@@ -60,7 +60,6 @@ So far, people have had success with:
 The Windows VM image is uploading, and may be complete by the time you see this!
 
 This is again a 4 part zip file.
-<!--
 If you choose to use it, there is a different
 [shell script]({{ site.url }}/assets/unpack_windows_vm.sh)
 for verifying the checksums.
@@ -69,7 +68,11 @@ Here are the md5 checksums:
 
  file name  | md5
 :----------:|:-----------:
--->
+Windown7_final.zip.001 | a0430392fee91458749ed6abb83db903 
+Windown7_final.zip.002 | f6045f8e8ecb31bda250c695012b42ad 
+Windown7_final.zip.003 | 8d5abee08bea963d3b33bc1c92ff7766 
+Windown7_final.zip.004 | da073079c5f7cd6ca40648073b5305ab 
+Windown7_final.ova     | 8b67bddb7b0af3c90eb431912dbfb2ea 
 
 ##Some notes as of 4:30 PM Saturday:
 (This section answers questions and gives updates for people who are having any issues with the download.)
