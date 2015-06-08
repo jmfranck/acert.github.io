@@ -60,8 +60,7 @@ So far, people have had success with:
 
 ## Windows Image Currently Uploading.
 
-The Windows VM image is uploading, and may be complete by the time you see this!
-The 4 multi-part zip files are in the same directory on [Cornell Box (click here to download)](https://cornell.box.com/s/o47ptx9wr21ui15zbugjizjanz24jk6c){:target="_blank"} as a multipart zip image.
+Now ready for download! The 4 multi-part zip files are in the same directory on [Cornell Box (click here to download)](https://cornell.box.com/s/o47ptx9wr21ui15zbugjizjanz24jk6c){:target="_blank"} as a multipart zip image.
 
 If you choose to use it, there is a different
 [shell script]({{ site.url }}/assets/unpack_windows_vm.sh)
@@ -77,11 +76,11 @@ Windown7_final.zip.003 | 8d5abee08bea963d3b33bc1c92ff7766
 Windown7_final.zip.004 | da073079c5f7cd6ca40648073b5305ab 
 Windown7_final.ova     | 8b67bddb7b0af3c90eb431912dbfb2ea 
 
-##Some notes as of 4:30 PM Saturday:
+##Some notes as of 4:30 PM Saturday (June 6th, 2015):
 (This section answers questions and gives updates for people who are having any issues with the download.)
 
-- ***The first upload in the series was broken until 2:50PM on Saturday, when we uploaded a new version of CentOS_final.zip.001*** A couple people have now confirmed that they can download and unpack everything correctly → thanks to them for helping work out the initial kinks!
-- The most recent version of the shell script was uploaded on 4:40pm on Saturday -- get this version if you are having any trouble, then:
+- ***The first upload in the series was broken until 2:50PM on June 6th (Saturday), when we uploaded a new version of CentOS_final.zip.001*** A couple people have now confirmed that they can download and unpack everything correctly → thanks to them for helping work out the initial kinks!
+- The most recent version of the shell script was uploaded on 4:40pm on June 6th (Saturday) -- get this version if you are having any trouble, then:
     - If you get a syntax error, please run either `dos2unix unpack_linux_vm.sh` or, if you don't have dos2unix, `sed "s/\r//" -i unpack_linux_vm.sh` (this fixes a potential newline issue with the download).
     - For running the script on Mac:
         - If you get shell scripting errors (after the fix above), please do send them to John, so we can fix them.
