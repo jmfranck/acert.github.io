@@ -11,12 +11,13 @@ Follow the instructions below, which are copied from [the EasySpin homepage](htt
 -----------------------------------------------------------
 
 ## Download and requirements
+*This page was updated on Sat Jun 6<sup>th</sup> to reflect a software update*
 
 *EasySpin* comes in a single zip file, containing all toolbox functions
 and the full documentation.
 
--   **EasySpin 4.5.5** -
-    [[download]](http://easyspin.org/easyspin-4.5.5.zip)
+-   **EasySpin 5.0.0 beta-686** -
+    [[download]](http://easyspin.org/es50b686.zip)
 
 *EasySpin* requires MATLAB 7.5 (R2007b) or later on either Windows,
 Linux or Mac. Beyond a basic MATLAB installation, no additional MATLAB
@@ -74,9 +75,7 @@ toolboxes are needed to run EasySpin.
 
         - *[for ACERT workshop] Note that on Linux, we get the additional subsequent line, which does not indicate any real problem:*
 
-            ~~~~
-            The EasySpin folder is not in MATLAB's search path. Please add it.
-            ~~~~
+            `The EasySpin folder is not in MATLAB's search path. Please add it.`
 
 
 5.  **Documentation**  

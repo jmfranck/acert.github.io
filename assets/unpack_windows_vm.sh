@@ -1,16 +1,16 @@
 #!/bin/bash
 # started upload at 6:50pm
 
-hash1="e48bc26a8717747be1327fa5ccdcfa30"
-file1="CentOS_final.zip.001"
-hash2="c6906ad40272c6e4a6fa0d06a3d6f4d2"
-file2="CentOS_final.zip.002"
-hash3="e3969d997b73c28856f1644b542212f7"
-file3="CentOS_final.zip.003"
-hash4="cafbb83a5032cc750c53adea266f915f"
-file4="CentOS_final.zip.004"
-hash_final="b436e96942700b2420c057cb702d234f"
-file_final="CentOS_final.ova"
+hash1="a0430392fee91458749ed6abb83db903"
+file1="Windown7_final.zip.001"
+hash2="f6045f8e8ecb31bda250c695012b42ad"
+file2="Windown7_final.zip.002"
+hash3="8d5abee08bea963d3b33bc1c92ff7766"
+file3="Windown7_final.zip.003"
+hash4="da073079c5f7cd6ca40648073b5305ab"
+file4="Windown7_final.zip.004"
+hash_final="8b67bddb7b0af3c90eb431912dbfb2ea"
+file_final="Windown7_final.ova"
 
 download_success=1
 export PATH="$PATH:/c/Program\ Files/Oracle/VirtualBox:/c/Program\ Files/7-Zip"
