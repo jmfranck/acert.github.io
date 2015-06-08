@@ -10,7 +10,9 @@ attribution: J. Franck
 - Did you bring a laptop with [VirtualBox]({{ site.url }}/VirtualBox.html) installed?
 - Did you download and unpack both VMs?
     - Were you able to open Matlab in the Windows VM?
+        - Did you save the machine state when closing?
     - Were you able to open Matlab in the CentOS Linux VM?
+        - Did you open Matlab and save the machine state when closing?
 - Can you hook up to the guest wireless, and then and access the internet from within your VMs?
 
 ### Optional, but highly recommended
