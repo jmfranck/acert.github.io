@@ -27,8 +27,8 @@ read -p "nlsl_2D is done, I'm pausing so you can just see if there's an error.  
 
 cd ..
 git clone https://jfranck@bitbucket.org/jfranck/nlsl.git
-mv nlsl nlsl_basispruning
-cd nlsl_basispruning
+mv nlsl nlsl_basisreduce
+cd nlsl_basisreduce
 git branch -t basis_pruning origin/basis_pruning
 git checkout basis_pruning
 read -p "nlsl_basispruning is done, I'm pausing so you can just see if there's an error.  Press enter to continue...."
