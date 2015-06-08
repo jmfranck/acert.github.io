@@ -57,14 +57,16 @@ So far, people have had success with:
 
 ## Delay in Upload of Windows Image 
 
-We apologize for the delay, but the Windows VM image will not be available until Monday morning.
+The Windows image will possibly be uploaded in a few minutes...
+
+<!--We apologize for the delay, but the Windows VM image will not be available until Monday morning.
 We have put the finishing touches on the Windows VM and started to export the VM image some time ago, but this is taking an unexpectedly long time.
 
 If at all possible, please do download the image on Monday.
 
 If you are, *e.g.*, traveling internationally where this will absolutely not be possible, please do send an email to acert [at] cornell.edu, and we will make an effort to have some flash disks to transfer the Windows VM images.
 
-Note that the Linux image has been ready to go, and it's very important to install it to identify any problems.
+Note that the Linux image has been ready to go, and it's very important to install it to identify any problems.-->
 
 ##Some notes as of 4:30 PM Saturday:
 (This section answers questions and gives updates for people who are having any issues with the download.)
