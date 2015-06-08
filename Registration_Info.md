@@ -76,6 +76,8 @@ E-mail: <acert@cornell.edu>
 
 ### WORKSHOP Preliminary Agenda
 
+For a detailed *Agenda*  for the workshop, please see [Workshop Agenda]({{site.baseurl}}/assets/2015_Agenda.pdf)
+
 **Tuesday June 9<sup>th</sup>**
 
 * Evening: Workshop Reception.  (Dinner on your own)
