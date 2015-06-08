@@ -71,41 +71,12 @@ Phone: 607-255-4632
 Fax: 607-255-6969
 
 E-mail: <acert@cornell.edu>
-
  
 
-### WORKSHOP Preliminary Agenda
+### WORKSHOP Agenda
 
 For a detailed *Agenda*  for the workshop, please see [Workshop Agenda]({{site.baseurl}}/assets/2015_Agenda.pdf)
 
-**Tuesday June 9<sup>th</sup>**
-
-* Evening: Workshop Reception.  (Dinner on your own)
-
-**Wednesday June 10<sup>th</sup>**
-
-* 7:30am – 8:30am Coffee and Registration.
-* 8:40am Lectures Begin.
-* Lectures are 40 minutes followed by 10 minutes of discussion for each talk.
-* After the opening introductory lecture by Jack Freed, the talks will emphasize Computational Methods for:
-    * Stochastic Liouville Equation for 1D and 2D ESR for Proteins and Membranes
-    * Stochastic Modeling and Molecular Dynamics for ESR; Many Body Theory for Spin Relaxation in Solids
-    * MMM type Methods for Predicting Distance Distributions for DEER and DQC
-    * DFT Theory for g and hf Tensors
-* Special Winery Dinner (optional)
-
-**Thursday June 11th**
-
--   7:30am – 8:30am Coffee
--   8:40am Computer Lab begins
--   Hands-on Experiences for 1 to 1.5 hours per Exercise. 
--   Conference Dinner
-
-**Friday June 12th**
-
--   7:30am – 8:30am Coffee
--   8:40am Completion of Computer Lab
--   Workshop ends after lunch
 
 ## Hotels
 
