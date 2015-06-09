@@ -20,6 +20,8 @@ the software.
 
 # Agenda for the workshop
 
+<span style="solid-table">
+
 ***ACERT 2015 Computational Methods Workshop AGENDA***
 
 ****Final Version****
@@ -84,3 +86,4 @@ the software.
 **2:00pm**         | **Workshop Ends**                                                                           | 
 
 
+</span>
