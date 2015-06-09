@@ -43,6 +43,10 @@ You can run two tests:
 - Go to the `workshop_examples` subdirectory inside your home directory.  Run the two python scripts, either by double-clicking or by typing `python `filename`.py` from within the shell (after `cd ~/workshop_examples`).
 - `cd ~/nlsl_1D` and then `python runexample.py 1`
 
+Note that we will be discussing very recent developments and will likely be pushing updates to the examples.
+For right now, when you run the examples, a plot is good, while an ImportError, *etc.,* means that your installation was not good.
+
+
 <!--
 - *pyspecdata*: this is a home-build module that allows for some data processing.
 
