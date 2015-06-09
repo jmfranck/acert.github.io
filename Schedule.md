@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Workshop Agenda
+title: Agenda
 ---
 
 # Workshop Agenda
