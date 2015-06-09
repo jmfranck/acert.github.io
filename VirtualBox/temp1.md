@@ -20,7 +20,7 @@ the software.
 
 # Agenda for the workshop
 
-<span style="solid-table">
+<div style="solid-table">
 
 ***ACERT 2015 Computational Methods Workshop AGENDA***
 
@@ -62,7 +62,7 @@ the software.
 9:50 – 10:30       | Talk 12: **Antonino Polimeno**, *Stochastic Modeling of Flexible Systems in Solution*                                                         | PSB 120
 10:30 – 10:45      | Talk 13: **Jack Freed**, Wavelet Denoising in ESR                                                                                             | PSB 120
 **10:45 – 12:00**  | **Coffee Break / Posters Session**                                                                                                            | Clark Atrium
-**12:00 – 1:30pm** | **Buffet Lunch **                                                                                                                             | Clark Atrium
+**12:00 – 1:30pm** | **Buffet Lunch**                                                                                                                             | Clark Atrium
 1:30 – 2:15        | Demo 1 : **Stefan Stoll**, *EasySpin*                                                                                                         | PSB 120
 2:15 – 3:00        | Demo 2 : **Christian Altenbach**, *MultiComponent and LongDistances*                                                                          | PSB 120
 3:00 – 3:45        | Demo 3 : **John Franck**, *Making NLSL Accessible to the Next Generation of Scientists*                                                       | PSB 120
@@ -75,10 +75,10 @@ the software.
 
 ***Friday June 12*** | |
 --------------------:|:-------------------------------------------------|:------------------------------
-**7:30 – 8:30am**  | **Coffee / Tea / Continental Breakfast **                                                   | Clark Atrium
+**7:30 – 8:30am**  | **Coffee / Tea / Continental Breakfast**                                                   | Clark Atrium
 8:30 – 9:15        | DEMO 6: **Saba Mattar**, *ORCA Software to Calculate the Magnetic Properties of Nitroxides* | PSB 120
 9:15 – 10:00       | DEMO 7: **Peter Fajer**, *CHARMM*                                                           | PSB 120
-**10:00 – 10:20**  | **Coffee Break / Poster **                                                                  | Clark Atrium
+**10:00 – 10:20**  | **Coffee Break / Poster**                                                                  | Clark Atrium
 10:20 – 11:05      | DEMO 8: **Antonino Polimeno**, *Stochastic Approach for Flexible Molecules (SALEM)*         | PSB 120
 11:05 – 11:50      | DEMO 9: **Ilya Kuprov**, *Spinach*                                                          | PSB 120
 11:50 – 12:10      | **Workshop Closing Discussion and Concluding Remarks by Jack Freed**                        | PSB 120
@@ -86,4 +86,4 @@ the software.
 **2:00pm**         | **Workshop Ends**                                                                           | 
 
 
-</span>
+</div>
