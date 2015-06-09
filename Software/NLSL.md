@@ -22,6 +22,7 @@ For the specific examples we will present, we will use both code development too
         - Under "Choose Components," open "Python", and select (though not in alphabetical order, you can type to find the appropriate package):
             - SymPy
             - ETS 4.4 
+            - VTK
         - Install the [mingw plugin](http://sourceforge.net/projects/python-xy/files/plugins/mingw-4.8.1-3.exe/download) (same link as the bottom of the page [here](https://code.google.com/p/pythonxy/wiki/AdditionalPlugins))
         - *(Note for if you already have a python distribution:)* Rather than installing pythonxy from scratch, check that you have the following packages installed: numpy, sympy, pytabels, matplotlib, PyQt4, ipython notebook, as well as support for mingw. 
     - Linux: install pylab and/or scipy, as well as sympy with your package manager.  You also need to have headers for lapack in your search path.
@@ -30,7 +31,17 @@ For the specific examples we will present, we will use both code development too
 
 ## Pull the code
 
-We will post a script here shortly to automatically download 
+Use
+[this shell script]({{ site.url }}/assets/install_nlsl.sh)
+to automatically download the code.
+
+Run the script, either by changing to the directory it's in and typing `bash install_nlsl.sh`, or by double-clicking on it.
+It will ask you to hit enter a bunch of times so you can see what's happening.
+The script should, in principle work on a Mac if you have all the correct python packages installed, but we have not had the opportunity to test it.
+
+You can run two tests:
+- Go to the `workshop_examples` subdirectory inside your home directory.  Run the two python scripts, either by double-clicking or by typing `python `filename`.py` from within the shell (after `cd ~/workshop_examples`).
+- `cd ~/nlsl_1D` and then `python runexample.py 1`
 
 <!--
 - *pyspecdata*: this is a home-build module that allows for some data processing.
