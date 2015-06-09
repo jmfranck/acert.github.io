@@ -265,29 +265,26 @@ table td, table th {
   border: 1px solid black;
 }
 table tr:first-child th {
-    color: $grey-color;
+    background: $grey-color;
 }
 table tr:first-child td{
-    color: $grey-color;
+    background: $grey-color;
 }
 table tr:last-child td {
-    color: $grey-color;
+    background: $grey-color;
 }
 table tr td:first-child,
 table tr th:first-child {
-    color: $grey-color;
+    background: $grey-color;
 }
 table tr td:nth-child(2){
-    color: $grey-color;
+    background: $grey-color;
 }
 table tr td:last-child,
 table tr th:last-child {
-    color: $grey-color;
+    background: $grey-color;
 }
 
-.solid-table table td, table th {
-  border: 5px solid black;
-}
 //tbody {
 //    border:3px solid black;
 //}
