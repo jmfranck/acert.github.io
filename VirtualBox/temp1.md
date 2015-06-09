@@ -33,9 +33,8 @@ the software.
 
 
 
-***Wednesday June 10*** |
+***Wednesday June 10*** |                    | 
   --------------------:|:-------------------------------------------------|:------------------------------
-
   **7:30 – 8:30am**    |**Welcome, Registration, and Coffee/Continental Breakfast**       |Baker Portico
   8:30 – 9:15          |Welcome and Talk 1: **Jack Freed**, *Introduction to Computational ESR* |Baker 119
   9:15 – 9:55          |Talk 2: Stefan Stoll, *EasySpin*   |Baker 119
