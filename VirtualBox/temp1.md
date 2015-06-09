@@ -20,8 +20,6 @@ the software.
 
 # Agenda for the workshop
 
-<div style="solid-table">
-
 ***ACERT 2015 Computational Methods Workshop AGENDA***
 
 **Final Version**
@@ -84,6 +82,3 @@ the software.
 11:50 – 12:10      | **Workshop Closing Discussion and Concluding Remarks by Jack Freed**                        | PSB 120
 **12:15 – 2:00pm** | **Buffet Lunch**                                                                            | Clark Atrium
 **2:00pm**         | **Workshop Ends**                                                                           | 
-
-
-</div>
