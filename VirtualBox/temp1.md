@@ -24,14 +24,14 @@ the software.
 
 ***ACERT 2015 Computational Methods Workshop AGENDA***
 
-****Final Version****
+**Final Version**
 
 
 
- ***Tuesday June 9***  |                                                   | 
- --------------------:|:------------------------------------------------|:------------------------------
- **5:45 – 7:00pm**   | **Welcome Cocktail Hour**                         | Kilpatrick’s, Hilton Garden Inn **Appetizers and Beverages (Cash Bar)**
- **7:00pm**            | **Dinner on your own for Workshop Registrants**   | 
+***Tuesday June 9***  |                                                   | 
+--------------------:|:------------------------------------------------|:------------------------------
+**5:45 – 7:00pm**   | **Welcome Cocktail Hour**                         | Kilpatrick’s, Hilton Garden Inn **Appetizers and Beverages (Cash Bar)**
+**7:00pm**            | **Dinner on your own for Workshop Registrants**   | 
 
 
 
