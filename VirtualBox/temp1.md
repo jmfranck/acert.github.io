@@ -24,34 +24,34 @@ the software.
 
 ****Final Version****
 
-***Tuesday June 9***
 
-  --------------------------------------------------------------------------------------------------------
-  **5:45 – 7:00pm**   |**Welcome Cocktail Hour**                          |Kilpatrick’s, Hilton Garden Inn
- 
-  **Appetizers and Beverages (Cash Bar)**            
-  ------------------- -------------------------------------------------- ---------------------------------
-  **7:00pm**          |**Dinner on your own for Workshop Registrants **   
-  --------------------------------------------------------------------------------------------------------
 
-***Wednesday June 10***
+   ***Tuesday June 9*** |                                                   |
+  --------------------:|:------------------------------------------------|:------------------------------
+  **5:45 – 7:00pm**    | **Welcome Cocktail Hour**                        | Kilpatrick’s, Hilton Garden Inn **Appetizers and Beverages (Cash Bar)**            
+  **7:00pm**           |**Dinner on your own for Workshop Registrants **  |
 
-  **7:30 – 8:30am**    |**Welcome, Registration, and Coffee/Continental Breakfast**                                                                  |Baker Portico
-  -------------------- |---------------------------------------------------------------------------------------------------------------------------- |-----------------
-  8:30 – 9:15          |Welcome and Talk 1: **Jack Freed**, *Introduction to Computational ESR*                                                      |Baker 119
-  9:15 – 9:55          |Talk 2: Stefan Stoll, *EasySpin*                                                                                             |Baker 119
-  **9:55 – 10:15**     **Coffee Break**                                                                                                             Baker Portico
-  10:15 – 10:55        Talk 3: **Christian Altenbach**, *EPR Data Analysis for the Rest of Us*                                                      Baker 119
-  10:55 – 11:35        Talk 4: **Yevhen Polyhach**, *Coarse-grained Simulation Approaches for Rotamer Libraries*                                    Baker 119
-  11:35 – 12:15        Talk 5: **Peter Fajer**, *Simulations of the Rotamer Structure of Spin Labels*                                               Baker 119
-  **12:15 – 2:00pm**   **Buffet Lunch / TECH Help Break (location TBA)**                                                                            PSB 401
-  2:00 – 2:40          Talk 6: **Zhichun Liang**, *Motional Dynamics for 1 and 2 Nitroxides by Two-Dimensional ESR*                                 Baker 119
-  2:40 – 3:20          Talk 7: **Keith Earle**, *Multi-Frequency ESR and a New Tool for Simulating Saturated Spectra in the Slow-Motional Regime*   Baker 119
-  **3:20 – 3:40**      **Coffee Break**                                                                                                             Baker Portico
-  3:40 – 4:20          Talk 8: **Alex Nevzorov**, *Many-Body Theory of Electron-Electron and Electron-Nucleus Relaxation*                           Baker 119
-  4:20 – 5:00          Talk 9: **Saba Mattar**, *Theory and Computation of hf and g Tensors by DFT*                                                 Baker 119
-  **5:15pm [sharp]**   **Shuttle Bus** Departs from near the Clark Breezeway Exit to Winery Dinner                                                  Clark Breezeway
-  **6:15 – 9:00pm**    **Winery Dinner** – Wagner Winery, Seneca Lake (optional)                                                                    Wagner Vineyard
+
+
+***Wednesday June 10*** |
+  --------------------:|:-------------------------------------------------|:------------------------------
+
+  **7:30 – 8:30am**    |**Welcome, Registration, and Coffee/Continental Breakfast**       |Baker Portico
+  8:30 – 9:15          |Welcome and Talk 1: **Jack Freed**, *Introduction to Computational ESR* |Baker 119
+  9:15 – 9:55          |Talk 2: Stefan Stoll, *EasySpin*   |Baker 119
+  **9:55 – 10:15**     |**Coffee Break**| Baker Portico
+  10:15 – 10:55        |Talk 3: **Christian Altenbach**, *EPR Data Analysis for the Rest of Us*| Baker 119
+  10:55 – 11:35        |Talk 4: **Yevhen Polyhach**, *Coarse-grained Simulation Approaches for Rotamer Libraries*| Baker 119
+  11:35 – 12:15        |Talk 5: **Peter Fajer**, *Simulations of the Rotamer Structure of Spin Labels*| Baker 119
+  **12:15 – 2:00pm**   |**Buffet Lunch / TECH Help Break (location TBA)** | PSB 401
+  2:00 – 2:40          |Talk 6: **Zhichun Liang**, *Motional Dynamics for 1 and 2 Nitroxides by Two-Dimensional ESR*| Baker 119
+  2:40 – 3:20          |Talk 7: **Keith Earle**, *Multi-Frequency ESR and a New Tool for Simulating Saturated Spectra in the Slow-Motional Regime*| Baker 119
+  **3:20 – 3:40**      |**Coffee Break**| Baker Portico
+  3:40 – 4:20          |Talk 8: **Alex Nevzorov**, *Many-Body Theory of Electron-Electron and Electron-Nucleus Relaxation*| Baker 119
+  4:20 – 5:00          |Talk 9: **Saba Mattar**, *Theory and Computation of hf and g Tensors by DFT*| Baker 119
+  **5:15pm [sharp]**   |**Shuttle Bus** Departs from near the Clark Breezeway Exit to Winery Dinner | Clark Breezeway
+  **6:15 – 9:00pm**    |**Winery Dinner** – Wagner Winery, Seneca Lake (optional) | Wagner Vineyard
+
 
 **Thank You for the Generous Support **
 
