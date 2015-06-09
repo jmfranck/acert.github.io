@@ -265,24 +265,24 @@ table td, table th {
   border: 1px solid black;
 }
 table tr:first-child th {
-  border: 0;
+    color: $grey-color;
 }
 table tr:first-child td{
-  border-top: 0;
+    color: $grey-color;
 }
 table tr:last-child td {
-  border-bottom: 0;
+    color: $grey-color;
 }
 table tr td:first-child,
 table tr th:first-child {
-  border: 0;
+    color: $grey-color;
 }
 table tr td:nth-child(2){
-  border-left: 0;
+    color: $grey-color;
 }
 table tr td:last-child,
 table tr th:last-child {
-  border-right: 0;
+    color: $grey-color;
 }
 
 .solid-table table td, table th {
