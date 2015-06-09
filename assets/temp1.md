@@ -1,6 +1,6 @@
  ---
 layout: default
-title: Lectures/Workshops
+title: Temporary
 ---
 # 2015 ACERT WORKSHOP
 
