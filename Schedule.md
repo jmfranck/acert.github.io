@@ -1,29 +1,18 @@
 ---
 layout: default
-title: Temporary
+title: Workshop Agenda
 ---
-# 2015 ACERT WORKSHOP
 
-Computational Methods in ESR
-----------------------------
-
-Cornell University, Ithaca, New York USA
-
-June 9-12, 2015
-----------------------------
-
-The workshop will have **two parts**: 
-the **first part** will consist of lectures on state-of-the-art methods and the
-**second part** will involve hands-on experience on the actual use of
-the software. 
- 
-
-# Agenda for the workshop
+# Workshop Agenda
 
 ***ACERT 2015 Computational Methods Workshop AGENDA***
 
 **Final Version**
 
+The workshop will have **two parts**: 
+the **first part** will consist of lectures on state-of-the-art methods and the
+**second part** will involve hands-on experience on the actual use of
+the software. 
 
 
 ***Tuesday June 9***  |                                                   | 
