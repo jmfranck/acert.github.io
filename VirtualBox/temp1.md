@@ -1,6 +1,6 @@
----
+ ---
 layout: default
-title: Lectures/Workshops
+title: Temporary
 ---
 # 2015 ACERT WORKSHOP
 
@@ -29,19 +29,19 @@ the software.
 ***Tuesday June 9***
 
   --------------------------------------------------------------------------------------------------------
-  **5:45 – 7:00pm**   **Welcome Cocktail Hour**                          Kilpatrick’s, Hilton Garden Inn
-                                                                         
-                      **Appetizers and Beverages (Cash Bar)**            
+  **5:45 – 7:00pm**   |**Welcome Cocktail Hour**                          |Kilpatrick’s, Hilton Garden Inn
+ 
+  **Appetizers and Beverages (Cash Bar)**            
   ------------------- -------------------------------------------------- ---------------------------------
-  **7:00pm**          **Dinner on your own for Workshop Registrants **   
+  **7:00pm**          |**Dinner on your own for Workshop Registrants **   
   --------------------------------------------------------------------------------------------------------
 
 ***Wednesday June 10***
 
-  **7:30 – 8:30am**    **Welcome, Registration, and Coffee/Continental Breakfast**                                                                  Baker Portico
-  -------------------- ---------------------------------------------------------------------------------------------------------------------------- -----------------
-  8:30 – 9:15          Welcome and Talk 1: **Jack Freed**, *Introduction to Computational ESR*                                                      Baker 119
-  9:15 – 9:55          Talk 2: Stefan Stoll, *EasySpin*                                                                                             Baker 119
+  **7:30 – 8:30am**    |**Welcome, Registration, and Coffee/Continental Breakfast**                                                                  |Baker Portico
+  -------------------- |---------------------------------------------------------------------------------------------------------------------------- |-----------------
+  8:30 – 9:15          |Welcome and Talk 1: **Jack Freed**, *Introduction to Computational ESR*                                                      |Baker 119
+  9:15 – 9:55          |Talk 2: Stefan Stoll, *EasySpin*                                                                                             |Baker 119
   **9:55 – 10:15**     **Coffee Break**                                                                                                             Baker Portico
   10:15 – 10:55        Talk 3: **Christian Altenbach**, *EPR Data Analysis for the Rest of Us*                                                      Baker 119
   10:55 – 11:35        Talk 4: **Yevhen Polyhach**, *Coarse-grained Simulation Approaches for Rotamer Libraries*                                    Baker 119
