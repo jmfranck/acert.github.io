@@ -24,10 +24,10 @@ For the specific examples we will present, we will use both code development too
             - ETS 4.4 
             - VTK
         - Install the [mingw plugin](http://sourceforge.net/projects/python-xy/files/plugins/mingw-4.8.1-3.exe/download) (same link as the bottom of the page [here](https://code.google.com/p/pythonxy/wiki/AdditionalPlugins))
-        - *(Note for if you already have a python distribution:)* Rather than installing pythonxy from scratch, check that you have the following packages installed: numpy, sympy, pytabels, matplotlib, PyQt4, ipython notebook, as well as support for mingw. 
-    - Linux: install pylab and/or scipy, as well as sympy with your package manager.  You also need to have headers for lapack in your search path.
-        - testing this on a linux box, we also have to install `python-dev` and `liblapack-dev` packages from the linux distribution
-    - Mac: This is possible, details forthcoming...
+        - *(Note for if you already have a python distribution:)* Rather than installing pythonxy from scratch, check that you have the following packages installed: pylab, numpy, sympy, pytabels, matplotlib, PyQt4, ipython notebook, as well as support for mingw. 
+    - Linux: install the packages noted on the last line (likely with your distribution's package manager).  You also need to have headers for lapack in your search path.
+        - testing this on a linux box, we also have to install `python-dev` and `liblapack-dev` packages from the linux distribution, which contain the build headers and the lapack libraries, respectively.
+    - Mac: Use XCode with macports to achieve a similar installation to the Linux case.
 
 ## Pull the code
 
