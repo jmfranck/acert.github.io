@@ -4,6 +4,9 @@ title: Development version of NLSL
 attribution: J. Franck
 ---
 # {{ page.title }}, Installation
+
+If you downloaded NLSL earlier, please use [this update script]({{ site.url }}/assets/update_nlsl.sh)
+
 This page will be updated → for now, please install the requirements.
 
 ## Install requirements
